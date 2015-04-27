@@ -1,0 +1,486 @@
+/* @group Slider */
+
+.wrapper-content .stack-banner,
+.wrapper-content .stack-banner + .wrapper-content .stack-content-inner {
+    padding-top: 0;
+}
+
+.banner-principal {
+    position: relative;
+}
+
+.banner-principal .views-row {
+    display: none;
+}
+
+.banner-principal .views-row.views-row-first,
+.banner-principal .views-row-first .slider-background {
+    display: block !important;
+    visibility: visible !important;
+}
+
+.banner-principal .slick-initialized .views-row .slider-background,
+.banner-principal .slick-initialized .views-row .slider-background img {
+    display: none !important;
+    visibility: hidden !important;
+}
+
+.banner-principal .views-row-first .slider-background img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.banner-principal .views-row,
+.banner-principal .views-row.noborder {
+    border-bottom: 6px solid transparent;
+    position: relative;
+}
+
+.banner-principal .views-row.bordeamarillo {
+    border-color: #ffd800;
+}
+
+.banner-principal .views-row.bordeceleste {
+    border-color: #0fc3ff;
+}
+
+.banner-principal .views-row,
+.banner-lugar-fiesta .views-row {
+    height: 350px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.banner-principal .slick-initialized .views-row {
+    display: table;
+}
+
+.slide-content {
+    color: #fff;
+    display: none;
+    top: 0;
+}
+
+.slick-initialized .slide-content {
+    height: 344px;
+    display: table-cell;
+    vertical-align: middle;
+    padding: 30px 10px;
+}
+body.page-node-606 .slick-initialized .slide-content,
+body.page-node-606 .slick-initialized .slide-content .favoritos-content-type{/*Styles for Festival Vallenato*/
+    color: #0059bc!important;
+}
+body.page-node-606 .slick-initialized .slide-content .favoritos-content-type{
+    font-size: 160%;
+    line-height: 20px;
+    text-align: center;
+}
+
+body.page-node-606 .slick-initialized .slide-content .favoritos-content-type p{
+    margin-top: 27px;
+    font-weight: bold;  
+}
+ 
+body.page-node-606 .slide-content p{
+    margin-top: 51px;
+}
+
+
+body.page-node-606 .slick-initialized .slide-content{
+    height: 100%;
+    padding: 6% 30px;
+}
+.slide-main-content {
+    overflow: hidden;
+    vertical-align: middle;
+}
+
+.slide-content p {
+    margin: 0 0 10px;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-size: 90%;
+}
+
+.slide-content em {
+    font: italic normal 165%/25px Dubiel;
+    font-family: Dubiel, Georgia, Times, serif;
+    margin: 0 0 0 5px;
+    font-style: italic;
+    display: inline-block;
+    letter-spacing: 1.2px;
+    line-height: 0.9;
+}
+
+.chicas-aguila .slide-content em {
+    font-size: 210%;
+}
+
+.slide-content h3 {
+    padding: 0;
+    margin: 0 0 10px;
+    font: normal 250%/28px 'ITCAvantGardePro';
+    font-family: 'ITCAvantGardePro', Helvetica, Arial sans-serif;
+}
+.slide-content .transform-like-module,
+.slide-content .video-link {
+    background-color: transparent !important;
+    border: none !important;
+    padding: 5px 0 !important;
+}
+
+.slide-content .video-link {
+    text-align: center;
+    font-size: 130%;
+}
+
+.slide-content .video-link ul {
+    margin: 0;
+    padding: 0;
+}
+
+.slide-content .video-link li,
+.slide-content .video-link div
+.slide-content .video-link img {
+    display: inline-block;
+    vertical-align: middle;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-weight: 300;
+}
+
+.slide-content .media-thumbnail-frame:before,
+.slide-content .media-thumbnail-frame:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+.slide-content .media-thumbnail-frame {
+    text-align: center;
+}
+
+.slide-content .media-thumbnail-frame img {
+    display: inline-block;
+    width: auto;
+    max-width: 175px;
+}
+
+.slide-content hr {
+    border: solid #fff;
+    border-width: 3px 0 0;
+    margin: 20px auto;
+    max-width: 155px;
+}
+
+.banner-principal .view-content .btn {
+    height: 38px;
+    min-width: 75px;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin: 10px 0 0 0;
+    font-size: 100%;
+    line-height: 38px;
+}
+
+.slick-slider {
+    margin: 0;
+}
+
+.slick-slider .slick-dots {
+    bottom: 0;
+    margin: 0;
+    padding: 0 10px 10px;
+}
+
+.slick-dots li {
+    background: url(../images/sprite.png) 3px -595px no-repeat transparent;
+}
+
+.slick-dots .slick-active {
+    background-position: 1px -558px;
+}
+
+.banner-principal .btn.to-scroll {
+    position: absolute;
+    left: 13%;
+    bottom: -15px;
+    cursor: pointer; 
+    cursor: hand;
+}
+
+.front .banner-principal .btn.to-scroll,
+.futbol .banner-principal .btn.to-scroll,
+.chicas-aguila .banner-principal .btn.to-scroll,
+.cerveza .banner-principal .btn.to-scroll {
+    display: block !important;
+    visibility: visible !important;
+}
+
+.chicas-aguila .banner-principal .btn.to-scroll {
+    background-color: #0565be;
+    cursor: default;
+}
+
+.favoritos-content-type {
+    text-align: center;
+    margin: 8px auto;
+    color: #FFF;
+    background-color: transparent !important;
+    border: none !important;
+    padding: 0 !important;
+}
+
+.favoritos-content-type .flag-wrapper {
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+}
+
+.favoritos-content-type .flag-wrapper .flag {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    padding: 14px 12px 0;
+    vertical-align: top;
+    background-color: #FFF;
+    background-position: 4px -714px;
+    border-radius: 50%;
+}
+
+.favoritos-content-type .flag-wrapper .flag.unflag-action {
+    background-position: 4px -634px;
+}
+
+.favoritos-content-type .flag-counter {
+    display: block;
+    height: 50px;
+    vertical-align: top;
+    font-family: Dubiel, Georgia, Times, serif;
+    font-size: 25px;
+    font-style: italic;
+    line-height: 50px;
+}
+
+.front .slick-slider .favoritos-content-type p {
+    display: none;
+}
+
+
+.slide-content-alternative {
+    height: 344px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    z-index: 1;
+    left: 0;
+    background-color: black;
+}
+
+.slide-content-alternative video{
+    height: 344px;
+    min-width: 100vw;
+}
+
+.slide-content-alternative + div {
+    position: relative;
+    z-index: 2;
+}
+
+.slide-content-alternative p {
+    margin: 0;
+    padding: 0;
+}
+
+/* @end */
+
+/* @group Media Query */
+
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+    .slide-content .media-thumbnail-frame img {
+        max-width: 225px;
+    }
+
+    .slide-content .video-link {
+        font-size: 170%;
+    }
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+    .banner-principal .views-row,
+    .banner-lugar-fiesta .views-row {
+        height: 450px;
+    }
+
+    .slick-initialized .slide-content {
+        height: 444px;
+        display: table-cell;
+        vertical-align: middle;
+        padding: 30px 20px;
+    }
+    
+    
+    .slide-content-alternative video,
+    .slide-content-alternative {
+        height: 444px;
+    }
+
+    .slide-content h3 {
+        font-size: 375%;
+        letter-spacing: -2px;
+        line-height: 45px;
+        letter-spacing: -2px;
+    }
+
+    .slide-content em {
+        line-height: 35px;
+        font-size: 210%;
+    }
+
+    .chicas-aguila .slide-content em {
+        font-size: 228%;
+    }
+
+    .banner-principal .view-content .btn {
+        height: 38px;
+        line-height: 38px;
+        min-width: 100px;
+        font-size: 128%;
+        margin: 20px 0 0;
+    }
+
+    .slide-content p {
+        font-size: 100%;
+    }
+
+    .favoritos-content-type {
+        margin: 20px auto 10px;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+    .slide-content {
+        padding: 90px 2% 50px;
+    }
+
+    .front .banner-principal .views-row {
+        height: 565px;
+    }
+
+    .front .slick-initialized .slide-content {
+        height: 550px;
+        padding: 30px 30px;
+    }
+
+    .chicas-aguila .slick-initialized .slide-content,
+    .chicas-aguila .banner-principal .views-row {
+        height: 565px;
+        z-index:1;
+    }
+
+    .banner-principal .views-row,
+    .banner-lugar-fiesta .views-row {
+        height: 465px;
+    }
+
+    .slide-content .video-link {
+        font-size: 228  %;
+    }
+
+    .slick-initialized .slide-content {
+        height: 459px;
+        padding: 30px 30px;
+    }
+
+    .slide-content-alternative video,
+    .slide-content-alternative {
+        height: 559px;
+    }
+    
+    .slide-content p {
+        margin: 0 0 10px;
+        font-size: 128%;
+    }
+
+    .slide-content em,
+    .chicas-aguila .slide-content em {
+        font-size: 300%;
+        line-height: 55px;
+    }
+
+    .slide-content h3 {
+        padding: 0;
+        margin: 6px 0;
+        font-size: 690%;
+        line-height: 80px;
+    }
+
+    .chicas-aguila .slide-content h3 {
+        font-size: 570%;
+    }
+
+    .slide-content .media-thumbnail-frame img {
+        max-width: none;
+    }
+
+    .slide-content hr {
+        border-top: 5px solid #fff;
+        margin: 45px auto 30px;
+    }
+
+    .slide-content .transform-like-module {
+        padding: 30px 0 !important;
+    }
+
+    .banner-principal .view-content .btn {
+        height: 58px;
+        line-height: 58px;
+        min-width: 150px;
+        margin: 30px 0 0;
+    }
+
+    .slick-slider .slick-dots {
+        padding: 0 10px 37px;
+    }
+
+    .favoritos-content-type {
+        margin: 20px auto 0;
+    }
+
+    .front .slick-slider .favoritos-content-type {
+        margin: 25px auto 5px;
+    }
+
+    .favoritos-content-type .flag-counter {
+        display: block;
+    }
+
+    .favoritos-content-type .flag-wrapper {
+        margin: 0;
+    }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+    .slide-content {
+        padding: 90px 0 50px;
+    }
+
+}
+/* @end */

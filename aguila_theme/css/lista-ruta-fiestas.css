@@ -1,0 +1,244 @@
+/* @group Lista Fiestas */
+
+.lista-ruta-fiestas .view-content {
+    max-width:1222px;
+    margin: -2.7692em auto 0;
+}
+
+.lista-ruta-fiestas .view-empty {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 5px;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+
+.lista-ruta-fiestas .view-filters {
+    display: none;
+}
+
+.item-list ul.pager,
+.lista-ruta-fiestas .view-content ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.item-list ul.pager {
+    margin-top: 58px;
+}
+
+.lista-ruta-fiestas .view-content ul  li {
+    margin: 0 5px 15px;
+    position: relative;
+    display: inline-block !important; /* IE overrides the display when loading new elements with "Cargar Mas" */
+}
+
+.lista-ruta-fiestas .views-field-field-imagen-fiesta img {
+    width: 290px;
+    height: 290px;
+}
+
+.lista-ruta-fiestas .view-content li .eventInfo {
+    position: absolute;
+    top: 116px;
+    text-align: center;
+    width: 100%;
+    color: #fff;
+}
+
+.lista-ruta-fiestas .eventInfo hr {
+    width: 52%;
+    margin-bottom: 5px;
+    margin-top: 14px;
+    border-top: 1px solid #eeeeee;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+}
+
+.lista-ruta-fiestas .eventTitle {
+    width: 100%;
+    margin: 0px auto;
+    text-align: center;
+    line-height: 28px;
+    font-size: 28px;
+}
+
+.lista-ruta-fiestas .eventTitle em {
+    font-style: italic;
+    font-family: Dubiel, Georgia, Times, serif;
+}
+
+.lista-ruta-fiestas .eventTitle  strong{
+    font-family: 'ITCAvantGardePro', Arial, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: -2px;
+}
+
+
+.lista-ruta-fiestas .eventDate,
+.lista-ruta-fiestas .eventCity {
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 300;
+    line-height: 22px;
+    letter-spacing: 5.6px;
+    font-size: 11px;
+}
+
+.lista-ruta-fiestas li .eventHoverInfo {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    background-color: #f9e82b;
+    text-align: center;
+    width: 100%;
+    display: none;
+}
+
+.lista-ruta-fiestas li .eventHoverInfo .field-content {
+    position: absolute;
+    width: 90%;
+    top: 85px;
+    left: 5%
+}
+
+.lista-ruta-fiestas li .eventHoverInfo .field-content p {
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    margin-bottom: 44px;
+    font-size: 13px;
+}
+
+.lista-ruta-fiestas li .eventHoverInfo .field-content a {
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    padding: 14px 39px 12px 20px;
+    background-position: 100% -120px;
+    font-size: 12px;
+    min-height: 0;
+}
+
+.lista-ruta-fiestas .view-content li:hover .eventInfo {
+    display: none;
+}
+.lista-ruta-fiestas .view-content li:hover .eventHoverInfo {
+    display: block;
+}
+
+.lista-ruta-fiestas  .item-list {
+    clear: both;
+    padding-top: 34px;
+}
+
+.pager-load-more {
+    border-top: solid 1px #b1b1b1;
+}
+
+.pager-load-more li {
+    position: relative;
+    top: -26px;
+}
+
+.pager-load-more li  a {
+    border-color: #b1b1b1;
+    padding: 15px 55px;
+    border-radius: 8px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    color: #313131;
+    font-size: 13px;
+}
+
+/* @end */
+
+/* @group Media Query */
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+    .pager-load-more li {
+        top: -33px;
+    }
+
+    .pager-load-more li  a {
+        padding: 18.5px 122.5px;
+        font-size: 18px;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+    .lista-ruta-fiestas .view-content ul  li {
+        margin:0 20px 34px;
+    }
+
+    .lista-ruta-fiestas .views-field-field-imagen-fiesta img {
+        width: 363px;
+        height: 363px;
+    }
+
+    .lista-ruta-fiestas .view-content li .eventInfo {
+        top: 146px;
+    }
+
+    .lista-ruta-fiestas .eventInfo hr {
+        margin-bottom: 6px;
+        margin-top: 18px;
+    }
+
+    .lista-ruta-fiestas .eventTitle {
+        line-height: 35px;
+        font-size: 36px;
+    }
+
+    .lista-ruta-fiestas .eventDate,
+    .lista-ruta-fiestas .eventCity {
+        line-height: 27px;
+        letter-spacing: 7.6px;
+        font-size: 14px;
+    }
+
+    .lista-ruta-fiestas li .eventHoverInfo .field-content {
+        top: 106px;
+    }
+
+    .lista-ruta-fiestas li .eventHoverInfo .field-content p {
+        margin-bottom: 55px;
+        font-size: 16px;
+    }
+
+    .lista-ruta-fiestas li .eventHoverInfo .field-content a {
+        padding: 17px 49px 15px 25px;
+        background-position: 100% -116px;
+        font-size: 14px;
+    }
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
+/* @end */
+body.node-type-lugar-de-fiesta .content-area .views-field-nothing a[href="#map"],
+body.node-type-lugar-de-fiesta .content-area .field-label-above,
+body.node-type-lugar-de-fiesta .content-area .region-content .views-field-field-facebook,
+body.node-type-lugar-de-fiesta .content-area .region-content .views-field-field-twitter
+{
+  display: none;
+}
+
+ 

@@ -1,0 +1,338 @@
+/* @group View Dynamic Filter */
+
+.view-dynamic-filter {
+    background-color: #f2f5f8;
+    font-size: 80%;
+    margin: 0 0 20px 0 !important;
+}
+
+.view-dynamic-filter,
+.view-dynamic-filter p,
+.view-dynamic-filter ul + p,
+.view-dynamic-filter ul .btn {
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    color: #0f796b;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+}
+
+.view-dynamic-filter ul .btn {
+    font-size: 100%;
+}
+
+.view-dynamic-filter .view-content ul:before,
+.view-dynamic-filter .view-content ul:after,
+.view-dynamic-filter .views-row > div:before,
+.view-dynamic-filter .views-row > div:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+.view-dynamic-filter .views-row > div > p {
+    font-size: 112.5%;
+    float: none;
+    padding: 10px 10px 0;
+    width: 100%;
+    color: #0f796b;
+    text-align: left;
+    font-weight: 600;
+}
+
+.view-dynamic-filter .view-content ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 5px 8px 10px 8px;
+    float: none;
+    width: 100%;
+}
+
+.view-dynamic-filter .views-row > div > ul + p {
+    font-size: 87.5%;
+    color: #868686;
+    float: none;
+    width: 100%;
+    padding: 0 10px 10px;
+    font-weight: normal;
+}
+
+.view-dynamic-filter .views-row > div > ul + p * {
+    color: #868686;
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.view-dynamic-filter .views-row > div > ul + p .btn {
+    margin-right: 10px;
+}
+
+.view-dynamic-filter .view-content li {
+    float: left;
+    padding: 0;
+    margin: 0 2px;
+}
+
+.view-dynamic-filter .view-content .filter {
+    color: #666666;
+    display: inline-block;
+    padding: 8px 11px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.view-dynamic-filter .view-content .filter:hover, 
+.view-dynamic-filter .view-content .active {
+    background-color: #0fc3ff;
+    color: #fff;
+}
+
+.view-dynamic-filter .view-content .btn-symbol.filter {
+    padding: 8px 11px 8px 40px;
+}
+
+.view-dynamic-filter .btn:active,
+.view-dynamic-filter .btn.active {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.view-dynamic-filter .btn-symbol-geo {
+    background-position: -5px -86px;
+}
+
+/* @end */
+
+/* Filter structure modification (UPDATES)*/
+
+#block-views-1bff5e93ffa8ffaf54836ae4dcf95527 .middle h2{
+    font-size: 112.5%;
+    font-weight: 600;
+    color: #0f796b;
+    float: left;
+    margin: 28px 10px 0 42px;
+}
+#block-views-1bff5e93ffa8ffaf54836ae4dcf95527 .middle.tb-terminal{
+    background: #f2f5f8;
+    height: 75px;
+    margin-bottom: 42px;
+}
+.view-filtros-la-ruta-de-la-alegria-fiesta-2,
+.view-filtros-la-ruta-de-la-alegria-2{
+    /*height: 75px;*/
+    background-color:none; 
+}
+.view-filtros-la-ruta-de-la-alegria-fiesta-2 .view-header,
+.view-filtros-la-ruta-de-la-alegria-2 .view-header{
+    float: left;
+    margin-top: 19px;
+    position: relative;
+    z-index: 2;
+}
+.view-filtros-la-ruta-de-la-alegria-fiesta-2 .view-header a.filter,
+.view-filtros-la-ruta-de-la-alegria-2 .view-header a.filter{
+    padding: 8px 18px;
+    color: #666666;
+    display: inline-block;
+    font-weight: 600;
+    text-decoration: none;
+    position: relative;
+    z-index: 1;
+}
+.view-filtros-la-ruta-de-la-alegria-2 .view-header a.filter.active,
+.view-filtros-la-ruta-de-la-alegria-2 .view-header a.filter:hover{
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: 600;
+    background-color: #0fc3ff;
+    color: #fff;
+    font-size: 109%;
+}
+
+
+/*Internal Filter*/
+#block-views-e9fc7a9443aec221f6635193c594c637 .view-dynamic-filter .view-content li{
+    margin: 0;
+    padding: 5px 18px 5px 18px;
+    border-left: 1px solid #b3b3b3;
+}
+.view-filtros-la-ruta-de-la-alegria-fiesta-2{
+    font-size: 90%!important;
+    width: 100%;
+    margin: 0 auto!important;
+    overflow: hidden;
+    background: white;
+}
+.view-filtros-la-ruta-de-la-alegria-fiesta-2>.view-content{
+    width: 100%;
+}
+.view-filtros-la-ruta-de-la-alegria-fiesta-2 .view-header a.filter{
+
+    text-transform: uppercase;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    color: black;
+    font-size: 90%;
+    margin-right: 14px;
+    background: none;
+}
+.view-filtros-la-ruta-de-la-alegria-fiesta-2 .view-header a.filter.active,
+.view-filtros-la-ruta-de-la-alegria-fiesta-2 .view-header a.filter:hover{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    color: black;
+    font-size: 90%;
+    margin-right: 14px;
+}
+
+.view-filtros-la-ruta-de-la-alegria-fiesta-2 .view-header a.filter.{
+
+}
+
+/* @group Media Query */
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+    #block-views-1bff5e93ffa8ffaf54836ae4dcf95527 .middle.tb-terminal{
+        margin-bottom: 90px;
+    }
+}
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+    .view-dynamic-filter {
+        font-size: 90%;
+    }
+
+    .view-dynamic-filter .view-content li {
+        margin: 5px 2px;
+    }
+
+    .view-dynamic-filter .view-content ul {
+        padding: 5px 15px 10px 15px;
+    }
+
+    .view-dynamic-filter .views-row > div > p {
+        padding: 10px 20px 0;
+    }
+
+    .view-dynamic-filter .views-row > div > ul + p {
+        padding: 0 18px 10px 18px;
+    }
+    #block-views-1bff5e93ffa8ffaf54836ae4dcf95527 .middle.tb-terminal{
+        margin-bottom:101px;
+    }
+}
+@media only screen and (min-width : 640px) {
+    #block-views-1bff5e93ffa8ffaf54836ae4dcf95527 .middle.tb-terminal{
+        margin-bottom: 60px;
+    }
+}
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+    .filtros-la-ruta .view-content ul {
+        float: none;
+        width: 100%;
+    }
+
+    .filtros-la-ruta-fiesta .view-content ul {
+        float: left;
+        width: 75%;
+    }
+
+    .view-dynamic-filter .views-row > div > ul + p {
+        float: right;
+        width: 25%;
+        padding: 9px 18px 0 0;
+    }
+    .view-dynamic-filter .btn-symbol-geo {
+        padding: 0 18px;
+        height: 37px;
+        background-position: -2px -83px;
+    }
+    #block-views-1bff5e93ffa8ffaf54836ae4dcf95527 .middle.tb-terminal{
+        margin-bottom: 70px;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+    .view-dynamic-filter.view-filtros-la-ruta-de-la-alegria-2 {
+        font-size: 114%;
+        margin:0px !important;
+    }
+
+    .view-dynamic-filter .views-row > div > p {
+        padding: 15px 33px 0 18px;
+    }
+
+    .view-dynamic-filter .view-content ul {
+        padding: 14px 0 10px 18px;
+    }
+
+    .view-dynamic-filter .views-row > div > ul + p {
+        padding: 16px 18px 0 0;
+    }
+
+    .view-dynamic-filter .view-content .filter {
+        padding: 8px 18px;
+    }
+
+    .view-dynamic-filter .view-content .btn-symbol.filter {
+        padding: 8px 18px 8px 40px;
+    }
+
+    .view-dynamic-filter .views-row > div > ul + p .btn {
+        margin-right: 24px;
+    }
+    #block-views-1bff5e93ffa8ffaf54836ae4dcf95527 .middle.tb-terminal{
+        margin-bottom: 82px;
+    }
+    #block-views-e9fc7a9443aec221f6635193c594c637 .middle.tb-terminal .content{
+        width: 1181px;
+        margin: 0 auto;
+    }
+
+    .view-filtros-la-ruta-de-la-alegria-fiesta-2{
+        width: 779px;
+    }
+    .view-filtros-la-ruta-de-la-alegria-fiesta-2>.view-content{
+        width: 1021px;
+    }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+    .view-dynamic-filter .views-row > div > p {
+        float: left;
+        padding: 25px 18px 0;
+        width: 17%;
+    }
+
+    .view-dynamic-filter .view-content ul {
+        padding: 14px 0 10px 0px;
+        float: left;
+        width: 80%;
+    }
+
+    .view-dynamic-filter .view-content div > p + ul {
+        padding: 14px 0 10px;
+    }
+
+    .view-dynamic-filter .views-row > div > ul + p {
+        width: 20%;
+    }
+}
+/* @end css */

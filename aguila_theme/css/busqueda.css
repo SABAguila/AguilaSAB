@@ -1,0 +1,82 @@
+/* @group Busqueda */
+
+.page-search .stack-content-inner {
+    font-family: 'Open Sans', Arial, sans-serif;
+    padding: 0 20px;
+}
+
+.page-search .stack-content-inner #page-title {
+    display: block;
+    margin-top: 30px;
+}
+
+.page-search .form-type-textfield, .form-item-languageCode {
+    margin: 0;
+}
+
+.page-search .search-results .search-snippet-info {
+    margin: 0;
+    padding-left: 0 !important;
+}
+
+.page-search .stack-content-inner .search-info {
+    display: none;
+}
+
+.page-search .search-form input {
+    height: 42px;
+    box-shadow: none;
+    border-radius: 0;
+    -webkit-appearance: none;
+    border: none;
+    padding: 0;
+    margin: 0 0 10px;
+    line-height: 3;
+    border: solid 1px #ccc;
+    max-width: 90%;
+    
+}
+
+.page-search .search-form #edit-submit {
+    padding: 0 28px;
+    background: #009fd4;
+    color: #fff;
+    border: none;
+    vertical-align: top;
+}
+
+.page-search .stack-content-inner h1,
+.page-search .stack-content-inner h2,
+.page-search .stack-content-inner h3 {
+    font-family: 'ITCAvantGardePro', Helvetica, Arial sans-serif;
+}
+
+/* @end */
+
+/* @group Media Query */
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
+/* @end */

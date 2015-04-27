@@ -1,0 +1,676 @@
+/* @group User Pages */
+
+.page-user .content-area {
+    margin: 30px auto;
+}
+
+.page-user .content-area .login-top,
+.page-user .content-area form,
+.page-user .content-area .login-bottom,
+.page-user .profile {
+    position: relative;
+    padding: 5px 10px;
+}
+
+.page-user #page-title {
+    display: none;
+}
+
+.page-user .form-control {
+    padding: 0;
+}
+
+.page-user .content-area .login-top p,
+.page-user #user-pass-reset {
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #5c5c5c;
+    text-align: center;
+}
+
+.page-user #user-pass-reset {
+    font: 24px/20px "Open Sans", Helvetica, Arial, sans-serif;;
+    color: #000;
+    padding: 40px 0 0;
+}
+
+.page-user .content-area form label,
+.page-user .field-type-text .field-label,
+.page-user .field-type-taxonomy-term-reference .field-label,
+.page-user .field-type-datetime .field-label,
+.page-user .field-type-datetime .fieldset-legend {
+    display: block;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    color: #5c5c5c;
+}
+
+.page-user .content-area form input.form-text,
+.page-user .content-area form .form-select,
+.page-user .profile .field-type-text .field-item,
+.page-user .profile .field-type-taxonomy-term-reference .field-item,
+.page-user .profile .field-type-datetime .field-item {
+    display: block;
+    height: 46px;
+    width: 100% !important;
+    padding: 12px;
+    border: 1px solid #e7e7e7;
+    box-shadow: none;
+}
+
+.page-user .content-area form input.form-text,
+.page-user .profile .field-type-text .field-item,
+.page-user .profile .field-type-taxonomy-term-reference .field-item,
+.page-user .profile .field-type-datetime .field-item {
+    background-color: #F3F4F9;
+}
+
+.page-user .content-area form .form-select {
+    background: #0FC3FF url("../images/sprite.png") right -237px no-repeat;
+    color: #FFF;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.password-confirm .error {
+    font-size: 120%;
+    color: #f00;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+@-moz-document url-prefix() {
+    .page-user .content-area .form-type-select {
+        overflow: hidden;
+    }
+
+    .page-user .content-area form .form-select {
+        width: 110%;
+    }
+}
+
+.page-user .content-area form .submit-button-wrapper {
+    border: none;
+    box-shadow: none;
+}
+
+.page-user .content-area form .form-navigation-wrapper,
+.page-user .content-area form#user-login h3 {
+    display: none;
+}
+
+.page-user .content-area .login-bottom p,
+.page-user .content-area .login-bottom a {
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    color: #5c5c5c;
+    text-align: center;
+}
+
+.page-user .content-area .login-bottom a {
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.page-user .content-area form .form-submit,
+.page-user .content-area .login-bottom .btn,
+.page-user #content [href='/user/logout'],
+.page-user #content [href$='edit-profile'],
+.page-user #content [href$='edit'] {
+    background: #ffd800;
+    color: #000;
+    display: inline-block;
+    font-family: "Retina Display Condensed",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: normal;
+    line-height: 1.2;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 0;
+    text-shadow: none;
+}
+
+.page-user .content-area .divider-section {
+    position: relative;
+    text-align: center;
+}
+
+.page-user .content-area .divider-section p {
+    display: inline-block;
+    padding: 0 20px;
+    font-family: "Retina Display Condensed", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #a6a6a6;
+    background-color: #fff;
+}
+
+.page-user .content-area .divider-section .line {
+    border-bottom: 1px solid #c3c3c3;
+    display: block;
+    height: 1px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+.page-user-register ul.hybridauth-widget {
+    padding-left: 10px;
+    display: none;
+} 
+
+.page-user .hybridauth-widget li {
+    width: 100%;
+}
+
+.page-user .hybridauth-widget a[title]:after {
+    display: inline-block;
+    height: 32px;
+    border-left: #fff solid 1px;
+    color: #fff;
+    text-align: center;
+    line-height: 2.4em;
+    position: absolute;
+    left: 42px;
+    right: 10px;
+}
+
+
+.page-user-register .hybridauth-widget a[title]:after {
+    left: 56px;
+}
+
+.page-user .hybridauth-widget a[title="Facebook"]:after {
+    content: "INICIA SESI\00D3N CON FACEBOOK";
+    background: #5F79AF;
+}
+
+.page-user .hybridauth-widget a[title="Twitter"]:after {
+    content: "INICIA SESI\00D3N CON TWITTER";
+    background: #2690BA;
+}
+
+.page-user .hybridauth-widget span {
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+
+/* @end */
+
+/* @group Login */
+
+.page-user #user-register-form .form-item,
+.page-user #user-login .form-item,
+.page-user #edit-profile-user-profile-form .form-item,
+.page-user #user-profile-form .form-item,
+.page-user #user-profile-form .field-type-datetime,
+.page-user .profile .field-type-text,
+.page-user .profile .field-type-taxonomy-term-reference,
+.page-user .profile .field-type-datetime {
+    width: 100%;
+    margin: 0 0 20px;
+}
+
+.page-user-login #edit-pass {
+    margin: 0 0 10px;
+}
+
+.page-user-login .login-bottom .divider-section {
+    margin: 0 0 10px;
+}
+
+.page-user-login .login-bottom .btn[href="/user/register"],
+.page-user-edit-profile #edit-submit,
+.page-user #content [href='/user/logout'],
+.page-user #content [href$='edit-profile'],
+.page-user #content [href$='edit'] {
+    width: 100%;
+    height: 60px;
+    line-height: 3.5em;
+}
+
+/* @end */
+
+/* @group Register */
+
+.page-user-register #block-views-registro-previo-block,
+.page-user-register .form-item-name .description,
+.page-user-register .form-item-field-thumbnail-und-0 .description,
+.page-user-register .tos-and-disclaimer,
+.page-user .field-type-datetime .description,
+.page-user-edit-profile .form-item-field-thumbnail-und-0 .description,
+.page-user .field-name-field-thumbnail .form-item-field-thumbnail-und-0 label,
+.page-user .form-item-field-thumbnail-und-0 .file,
+.page-user .form-item-field-thumbnail-und-0 .file-size,
+.page-user-edit .form-item-mail .description,
+.page-user-edit #edit-picture {
+    display: none;
+}
+
+.page-user .header-form {
+    height: 222px;
+    background: url("../images/header_perfil.jpg") 0 0 no-repeat;
+    background-size: cover;
+    padding: 28px 30px 0;
+    margin: 0 0 10px;
+}
+
+.page-user #content-area .form-item.form-item-field-thumbnail-und-0,
+.profile .field-name-field-thumbnail img {
+    margin: 1em 0 0;
+}
+
+.page-user .field-name-field-thumbnail img {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-left: calc(50% - 50px);
+}
+
+.page-user-register .form-item-field-thumbnail-und-0 .image-widget-data,
+.page-user-edit-profile .form-item-field-thumbnail-und-0 .image-widget-data {
+    position: relative;
+}
+
+.page-user-register .form-item-field-thumbnail-und-0 .image-preview,
+.page-user-edit-profile .form-item-field-thumbnail-und-0 .image-preview {
+    margin-left: calc(50% - 100px);
+}
+
+.page-user-register .form-item-field-thumbnail-und-0 #edit-field-thumbnail-und-0-upload,
+.page-user-edit-profile .form-item-field-thumbnail-und-0 #edit-field-thumbnail-und-0-upload {
+    width: 100px;
+    font-size: 80px;
+    color: #0565be;
+    text-transform: initial;
+    text-decoration: underline;
+    background: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    cursor: pointer;
+    opacity: 0;
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+}
+
+.page-user-register .form-item-field-thumbnail-und-0 .wrapper-input-load,
+.page-user-edit-profile .form-item-field-thumbnail-und-0 .wrapper-input-load {
+    display: inline-block;
+    width: 120px;
+    position: absolute;
+    font: bold 12px "Open Sans", Helvetica, Arial, sans-serif;
+    color: #0565be;
+    text-decoration: underline;
+    top: -8px;
+    left: 0;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.page-user-register .form-item-field-thumbnail-und-0 #edit-field-thumbnail-und-0-upload-button,
+.page-user-register .form-item-field-thumbnail-und-0 #edit-field-thumbnail-und-0-remove-button,
+.page-user-edit-profile .form-item-field-thumbnail-und-0 #edit-field-thumbnail-und-0-upload-button,
+.page-user-edit-profile .form-item-field-thumbnail-und-0 #edit-field-thumbnail-und-0-remove-button {
+    background-color: #0565BE;
+    color: #FFF;
+}
+
+.page-user-register .form-item-field-thumbnail-und-0 #edit-field-thumbnail-und-0-upload-button,
+.page-user-edit-profile .form-item-field-thumbnail-und-0 #edit-field-thumbnail-und-0-upload-button {
+    visibility: hidden;
+    font-size: 11px;
+    margin-top: 25px;
+}
+
+.page-user-register .form-item-field-thumbnail-und-0 #edit-field-thumbnail-und-0-upload-button.visible,
+.page-user-edit-profile .form-item-field-thumbnail-und-0 #edit-field-thumbnail-und-0-upload-button.visible {
+    visibility: visible;
+}
+
+.page-user-register .form-item-field-thumbnail-und-0 #edit-field-thumbnail-und-0-remove-button,
+.page-user-edit-profile .form-item-field-thumbnail-und-0 #edit-field-thumbnail-und-0-remove-button {
+    margin: 33px 0 0 12px;
+}
+
+.page-user .field-type-image .messages {
+    position: absolute;
+    left: 0;
+    top: 166px;
+    z-index: 10;
+}
+
+.page-user .header-form p,
+.profile h2 {
+    font: bold 18px "Open Sans", Helvetica, Arial, sans-serif;
+    margin: 0;
+    text-align: center;
+}
+
+.profile h2 {
+    margin: 0 0 20px;
+}
+
+.page-user .form-item-field-tel-fono-und-0-value .description {
+    margin: 5px 0 0;
+}
+
+.page-user-register .field-type-datetime legend,
+.page-user-edit-profile .field-type-datetime legend,
+#user-register-form .field-type-datetime .form-type-date-popup,
+#edit-profile-user-profile-form .field-type-datetime .form-type-date-popup {
+    border: none;
+    margin: 0;
+}
+
+.page-user-register .field-type-datetime .date-no-float,
+.page-user-edit-profile .field-type-datetime .date-no-float {
+    clear: none;
+    float: left;
+    width: 100%;
+}
+
+.page-user-register .field-type-datetime .date-padding,
+.page-user-edit-profile .field-type-datetime .date-padding {
+    padding: 0;
+    width: 100%;
+}
+
+.page-user-register #agree-error {
+    color: red;
+    font-weight: bold;
+    clear: both;
+}
+
+.page-user-register .form-item label.error {
+    text-align: right;
+    color: red;
+}
+
+.page-user-register .content-area .submit-button-wrapper {
+    padding: 0 0 60px;
+}
+
+.page-user-register #edit-submit {
+    width: 100%;
+    height: 46px;
+}
+
+.page-user-register #check-therms-conditions {
+    float: left;
+    margin: 3px 10px 0 0;
+}
+
+.page-user-register .therms-conditions p {
+    width: 95%;
+    float: right;
+}
+
+.page-user-register  .therms-conditions {
+    margin: 0 14px;
+}
+
+.page-user-register  .hybridauth-widget-wrapper {
+    margin: 0 3px;
+}
+/* @end */
+
+/* @group Profile */
+
+.profile .header-form .user-picture {
+    float: left;
+    overflow: hidden;
+}
+
+.profile .header-form .user-picture img {
+    border-radius: 50%;
+    -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+            transform: scale(1.2);
+}
+
+.page-user .field-type-text .field-label,
+.page-user .field-type-taxonomy-term-reference .field-label,
+.page-user .field-name-field-edad .field-label {
+    font-weight: bold;
+}
+
+.page-user #content [href='/user/logout'],
+.page-user #content [href$='edit-profile'],
+.page-user #content [href$='edit'] {
+    margin: 15px 0 0;
+    line-height: 4.5em;
+}
+
+.page-user #content [href='/user/logout'] {
+    background: #F3F4F9 url('../images/sprite.png') 25% -1070px no-repeat;
+    color: #979797;
+}
+
+.page-user-edit #edit-account {
+    margin: 32px 0 0;
+}
+
+.page-user-edit .form-type-password .password-confirm,
+.page-user-edit .form-type-password label,
+.page-user .profile .field-type-taxonomy-term-reference .field-item {
+    margin: 0;
+}
+
+.page-user-edit .password-strength {
+    margin: 0 0 10px;
+}
+
+.page-user-edit #edit-locale,
+.page-user-edit #edit-timezone {
+    padding-left: 0;
+}
+
+.page-user-edit .form-item-timezone #edit-timezone--2 {
+    padding-right: 25px;
+}
+
+.page-user-password .form-actions.form-wrapper {
+    margin: 0;
+}
+
+
+.page-hybridauth-window input {
+    clear: both;
+    display: block;
+}
+
+.page-hybridauth-window #main {
+    margin: 0px auto;
+    padding: 0px 50px;
+    max-width: 960px;
+}
+
+.page-user-reset #user-pass-reset p {
+    line-height: 30px;
+}
+.page-user-reset #user-pass-reset p:first-child {
+    display: none;
+}
+
+
+/* @end */
+
+/* @group Media Query */
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+    .page-user-edit .password-strength {
+        margin: 0;
+    }
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+    .page-user .content-area {
+        margin: 50px auto;
+        max-width: 630px;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+    .page-user-register #content-area .form-item,
+    .page-user-edit-profile #content-area .form-item,
+    .page-user-register .field-type-datetime .form-wrapper,
+    .page-user-edit-profile .field-type-datetime .form-wrapper,
+    .page-user .profile .field-type-text,
+    .page-user .profile .field-type-taxonomy-term-reference,
+    .page-user .profile .field-type-datetime,
+    .page-user #content-area [href$='edit-profile'],
+    .page-user #content-area [href$='edit'] {
+        width: 45%;
+        margin: 0 2.5% 0;
+        float: left;
+    }
+
+    .page-user #content-area .field-type-datetime .form-item {
+        width: 100%;
+        margin: 0;
+    }
+
+    .page-user-register #content-area .form-item,
+    .page-user-edit-profile #content-area .form-item,
+    .page-user .profile .field-type-text,
+    .page-user .profile .field-type-taxonomy-term-reference,
+    .page-user .profile .field-type-datetime {
+        padding: 6px 0;
+        max-height: 80px;
+    }
+
+    .page-user-register #content-area .form-item-field-tel-fono-und-0-value,
+    .page-user-edit-profile #content-area .form-item-field-tel-fono-und-0-value {
+        max-height: initial;
+    }
+
+    .page-user-register .field-type-datetime .form-wrapper {
+        padding: 7px 0;
+    }
+
+    .page-user-edit-profile .field-type-datetime .form-wrapper {
+        padding: 6px 0;
+    }
+
+    .page-user #content-area .form-item-field-edad-und-0-value-date,
+    .page-user #content-area .form-type-date-popup {
+        padding: 0;
+    }
+
+    .page-user .field-type-datetime legend {
+        padding-top: 5px;
+        margin-bottom: -5px;
+    }
+
+    .profile #edit-actions--2 [href='/user/logout'] {
+        width: 95%;
+        margin-left: 2.5%;
+        background-position-x: 38%;
+    }
+
+    .page-user .header-form {
+        padding-top: 48px;
+    }
+
+    .page-user #content-area .header-form .form-item-field-thumbnail-und-0 {
+        width: 20%;
+    }
+
+    .page-user-register .form-item-field-thumbnail-und-0 .image-preview,
+    .page-user-edit-profile .form-item-field-thumbnail-und-0 .image-preview {
+        margin-left: 0;
+    }
+
+    .page-user-edit-profile #content-area .header-form .form-item-field-thumbnail-und-0,
+    .profile .header-form .user-picture {
+        margin-top: -36px;
+    }
+
+    .page-user-register #content-area .header-form .form-item-field-thumbnail-und-0 {
+        margin-top: -12px;
+    }
+
+    .profile .field-name-field-thumbnail img {
+        margin: 0;
+    }
+
+
+    .page-user-register .form-item-field-thumbnail-und-0 #edit-field-thumbnail-und-0-upload-button,
+    .page-user-edit-profile .form-item-field-thumbnail-und-0 #edit-field-thumbnail-und-0-upload-button {
+        font-size: 14px;
+        margin-top: 15px;
+    }
+
+    .page-user-register .form-item-field-thumbnail-und-0 #edit-field-thumbnail-und-0-remove-button,
+    .page-user-edit-profile .form-item-field-thumbnail-und-0 #edit-field-thumbnail-und-0-remove-button {
+        margin-top: 0;
+    }
+
+    .page-user .header-form p {
+        text-align: left;    
+        width: 75%;
+        clear: both;
+        float: right;
+        font-size: 24px;
+    }
+
+    .page-user .field-type-image .messages {
+        left: 155px;
+        top: 94px;
+    }
+
+    .profile h2 {
+        margin: 20px 0;
+    }
+
+    .page-user-register #content-area .submit-button-wrapper {
+        clear: both;
+        margin: 0 0 0 2.5%;
+        padding: 25px 0 60px;
+    }
+
+    .page-user-edit-profile #edit-actions--2,
+    .profile #edit-actions--2 {
+        clear: both;
+        padding: 50px 0 0;
+    }
+
+    .page-user-register #edit-submit,
+    .page-user-edit-profile #edit-submit,
+    .page-user-edit-profile #content [href='/user/logout'] {
+        width: 45%;
+    }
+
+    .page-user-edit-profile #edit-submit,
+    .page-user-edit-profile #content [href='/user/logout'] {
+        margin: 0 2.5% 0;
+    }
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
+/* @end */

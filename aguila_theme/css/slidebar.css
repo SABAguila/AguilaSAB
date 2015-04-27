@@ -1,0 +1,36 @@
+/* @group slidebar */
+
+.sb-slidebar {
+    background-color: #0565be;
+}
+
+
+
+.sb-slidebar h1 {
+    margin:0;
+}
+
+
+.sb-slidebar .site-name-wrapper {
+    text-align: center;
+    margin: 0px;
+}
+
+.sb-slidebar li {
+    border-bottom: 1px solid #3381c9;
+}
+
+.sb-slidebar a {
+    color: #FFF;
+    font-family: 'Retina Display Condensed', Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 0 1em !important;
+}
+
+.sb-slidebar li.active-trail,
+.sb-slidebar a:hover {
+    background-color: #0fc3ff;
+}
+
+

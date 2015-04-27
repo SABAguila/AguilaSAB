@@ -1,0 +1,229 @@
+/* @group Footer */
+
+.wrapper-footer .stack.stack-footer-inner {
+    padding: 30px 0;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    background: #1f527a;
+    color: #a1d5fe;
+}
+
+.stack.stack-footer-inner h2 {
+    margin: 0;
+    color: #fff;
+    font-weight: 600;
+    font-size: 100%;
+}
+
+.stack.stack-footer-inner a {
+    color: #a1d5fe;
+    text-decoration: underline;
+}
+
+.region-footer-first p {
+    line-height: 1.5;
+}
+
+.region-footer-first .content strong {
+    font-size: 128.57%;
+}
+
+.region-footer-first ul li {
+    display: inline-block;
+    font-size: 85.71%;
+    margin: 0 15px 0 0;
+
+}
+
+.web-form-aguila-news .errormsg {
+    display: block;
+    clear: both;
+    color: yellow;
+}
+
+.web-form-aguila-news .webform-client-form {
+    overflow: hidden;
+    margin-bottom: 25px;
+}
+
+.web-form-aguila-news label,
+.web-form-aguila-news .mollom-privacy,
+.web-form-aguila-news .web-form-container-inline label {
+    display: none !important;
+}
+
+.web-form-aguila-news .form-item,
+.web-form-aguila-news .form-actions {
+    float: left;
+}
+
+.web-form-aguila-news .form-actions input,
+.web-form-aguila-news .form-item input.form-text {
+    height: 42px;
+    box-shadow: none;
+    border-radius: 0;
+    -webkit-appearance: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    line-height: 3;
+}
+
+.web-form-aguila-news .form-item,
+.web-form-aguila-news .form-actions {
+    margin: 0;
+}
+
+.web-form-aguila-news .form-item {
+    width: 50.5%;
+}
+
+.web-form-aguila-news .form-item input.form-text {
+    padding: 0 16px;
+    color: #1f527a;
+    min-width: 100%;
+    width: 100%;
+}
+
+.web-form-aguila-news .form-item input::-webkit-input-placeholder {  
+   color: #1f527a;  
+}
+
+.web-form-aguila-news .form-item input:-moz-placeholder {  
+   color: #1f527a;  
+}
+
+.web-form-aguila-news .form-item input::-moz-placeholder {  
+   color: #1f527a;  
+}
+
+.web-form-aguila-news .form-item input:-ms-input-placeholder {  
+   color: #1f527a;  
+}
+
+
+.web-form-aguila-news .form-actions {
+    width: 50%;
+    max-width: 165px;
+}
+
+.web-form-aguila-news .form-actions input {
+    padding: 0 28px;
+    background: #009fd4;
+    color: #fff;
+    font-weight: bold;
+    width: 100%;
+}
+
+#footer .col-2 .col {
+    width: 100%;
+    margin: 20px 0 0;
+    padding: 0 10px;
+    min-height: 0 !important;
+}
+
+#footer .col-2 .col-first {
+    margin: 0;
+}
+
+.region-footer-second {
+    text-align: left;
+    margin: 5px 0 0 0;
+    padding: 0;
+}
+
+.region-footer-second p {
+    margin: 0;
+    padding: 10px 0 0 0;
+}
+
+.region-footer-second strong a {
+    font-size: 85.71%;
+}
+
+.region-footer-second ol,
+.region-footer-second ul {
+    margin: 0 0 9px 0;
+}
+
+.stack.stack-footer-inner .region-footer-second ol a,
+.stack.stack-footer-inner .region-footer-second ul a {
+    text-decoration: none;
+}
+
+.region-footer-second li {
+    display: block;
+}
+
+.stack-copyright {
+    padding: 14px 10px 23px;
+    text-align: center;
+}
+
+.stack-copyright p {
+    text-align: center;
+    font-size: 153%;
+    letter-spacing: -0.2px;
+    font-family: 'Retina Display Condensed', 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+.stack-copyright img {
+    display: inline-block;
+    width: 100%;
+}
+
+.stack-copyright .content {
+    margin: 0 auto;
+}
+
+/* @end */
+
+/* @group Media Query */
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+    .web-form-aguila-news .form-actions {
+        width: 22%;
+        min-width: 149px;
+    }
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+    /* @group Footer */
+
+    #footer .col-2 .col-first {
+        width: 58%;
+        padding: 0 1%;
+    }
+
+    #footer .col-2 .col-second {
+        width: 40%;
+        margin: 0 0 0 1%;
+        padding: 0 0 0 1%;
+    }
+
+    .region-footer-second {
+        padding: 0 10px;
+    }
+
+    /* @end */
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
+/* @end */

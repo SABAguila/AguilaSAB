@@ -1,0 +1,63 @@
+/* @group Lista de galerias */
+
+#block-views-lista-de-galerias-block {
+    border-top: solid 1px #b1b1b1;
+    margin: 62px 0;
+}
+
+#block-views-lista-de-galerias-block h2 {
+    margin: 46px auto;
+    color: #3e3e3e;
+    font-family: 'ITCAvantGardePro', Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 35px;
+    letter-spacing: -1.2px;
+    max-width: 1118px;
+    padding: 0 30px;
+}
+
+#block-views-lista-de-galerias-block h2 b,
+#block-views-lista-de-galerias-block h2 strong {
+    color: #29c7fc;
+    font-weight: 700;
+}
+
+#block-views-lista-de-galerias-block .view-content {
+    position: relative;
+    margin: 0 auto;
+    max-width: 1200px;
+    text-align: center;
+}
+
+#block-views-lista-de-galerias-block  .views-row {
+    display: inline-block !important;  /* IE overrides the display when loading new elements with "Cargar Mas" */
+    width: 280px;
+    font-family: "Open Sans";
+    font-size: 14px;
+    text-align: center;
+    color: #555555;
+    margin: 0 7px;
+    letter-spacing: 0.5px;
+}
+
+#block-views-lista-de-galerias-block  .views-row .yellowOverlay {
+    background-color: #f0cd0a;
+    position: absolute;
+    width: 280px;
+    height: 280px;
+    top: 0;
+    opacity: 0.9;
+    display: none;
+}
+
+#block-views-lista-de-galerias-block  .views-row:hover .yellowOverlay {
+    display: block;
+}
+
+#block-views-lista-de-galerias-block  .views-row .views-field-title {
+    font-size: 18px;
+    color: #222222;
+    margin-top: 15px;
+}
+
+/* @end */

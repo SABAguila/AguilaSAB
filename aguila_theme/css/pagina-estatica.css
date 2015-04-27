@@ -1,0 +1,186 @@
+/* @group Static pages */
+
+.node-type-p-gina-html .stack-content-inner #page-title {
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    display: block;
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.node-type-p-gina-html .content-area .field-items ul {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.node-type-p-gina-html h3 {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.node-type-p-gina-html h4 {
+    font-size: 15px;
+}
+
+.node-type-p-gina-html .content-area .field-items li {
+    margin-bottom: 10px;
+}
+
+.node-type-p-gina-html .content-area .field-items li p {
+    margin-bottom: 0;
+}
+
+.node-type-p-gina-html .content {
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+}
+
+.node-type-p-gina-html .stack-content-inner {
+    padding: 0 20px;
+}
+
+/* @end */
+
+/* @group Aguila en Vivo */
+
+.aguila-en-vivo #block-system-main {
+    position: relative;
+    font-size: 18px;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    line-height: 30px;
+    position: relative;
+    margin: 0 auto;
+    max-width: 1118px;
+    padding: 0 30px;
+}
+
+.aguila-en-vivo #block-system-main h2 {
+    font-family: Dubiel, Georgia, Times, serif;
+    font-size: 35px;
+    margin-bottom: 5px;
+}
+
+.aguila-en-vivo #block-system-main .field-item {
+    width: 100%;
+}
+
+.aguila-en-vivo #block-system-main h1 {
+    font-family: 'ITCAvantGardePro', Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    font-size: 71px;
+    margin-top: 9px;
+    line-height: 72px;
+    letter-spacing: -3.2px;
+    margin-bottom: 40px;
+}
+
+.aguila-en-vivo #block-system-main p {
+    margin-bottom: 40px;
+}
+
+.aguila-en-vivo #block-system-main h3 {
+    font-family: 'ITCAvantGardePro', Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    display: block;
+    margin-top: 2px;
+    font-weight: 200;
+    float: none;
+    width: 100%;
+}
+
+.aguila-en-vivo #block-system-main .mostrarMapa a {
+    font-size: 13.8px;
+    color: #868686;
+    text-decoration: underline;    
+    width: 155px;
+    display: inline-block;
+    height: 38px;
+    padding-top: 3px;
+    background-image: url(../images/sprite.png);
+    background-position: 115px -882px;
+    background-repeat: no-repeat;
+}
+
+.aguila-en-vivo .calendarBox {
+    position: relative;
+    width: 100%;
+    top: 0;
+    right: 0;
+    min-height: 200px;
+    height: 480px;
+    margin: 30px auto 0;
+    max-width: 400px;
+}
+
+.aguila-en-vivo .calendarBox .media-thumbnail-frame img {
+    width: 100%;
+}
+
+.eventos-aguila-en-vivo .view-content {
+    display: none;
+}
+
+.eventos-aguila-en-vivo {
+    margin-bottom: 40px;
+}
+
+.aguila-en-vivo .float-overflow {
+    overflow: visible !important;
+}
+
+.aguila-en-vivo .calendar-header {
+    border: none;
+    height: 220px;
+    min-height: 220px;
+    max-height: 220px;
+    background-color: #fff;
+    background-size: cover;
+}
+
+
+/* @end */
+
+/* @group Media Query */
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+    
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+    .aguila-en-vivo #block-system-main .field-item {
+        width: 56%;
+    }
+ 
+    .aguila-en-vivo .calendarBox {
+        position: absolute;
+        width: 38%;
+        margin-top: 0;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+    .aguila-en-vivo #block-system-main h3 {
+        float: left;
+        width: 54%;
+    }
+
+    .aguila-en-vivo .mostrarMapa {
+        background-position: 77.8% -882px;
+    }    
+
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
+/* @end */

@@ -1,0 +1,312 @@
+/* @group Contenido Cervezas */
+
+
+.node-cerveza .field-name-field-subcontenido {
+    font-size: 12px;
+    font-family: "ITCAvantGardePro", Helvetica, Arial sans-serif;
+    text-align: center;
+    font-weight: 300;
+    letter-spacing: 0.2px;
+    height: 150px;
+    vertical-align: middle;
+    padding: 35px 10px 0;
+    line-height: 1;
+    color: #3e3e3e;
+}
+
+.cerveza.aguila .node-cerveza .field-name-field-subcontenido {
+    line-height: 1.1;
+    letter-spacing: -0.6px;
+}
+
+.cerveza.aguila-light .node-cerveza .field-name-field-subcontenido {
+    padding-top: 25px;
+}
+
+.node-cerveza .field-name-field-subcontenido strong {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #29c7fc;
+    
+}
+
+.presentaciones .view-header{
+    border-top: solid 1px #b1b1b1;
+    height: 34px;
+}
+
+.presentaciones .view-header  h3{
+    font-size: 17px;
+    width: 220px;
+    padding: 8px 0 10px;
+    top: -23px;
+    position: relative;
+    font-family: "ITCAvantGardePro", Helvetica, Arial sans-serif;
+    font-weight: 700;
+    border: solid 1px #b1b1b1;
+    border-radius: 8px;
+    color: #313131;
+    text-align: center;
+    margin: 0 auto;
+    text-transform: uppercase;
+    background: #fff;
+}
+
+.presentaciones .view-content {
+    max-width: 1200px;
+    margin: 0 auto 45px;
+    text-align: center;
+}
+
+.presentaciones .views-row {
+    font-size: 13px;
+    display: inline-block;
+    text-align: center;
+    font-family: "ITCAvantGardePro", Helvetica, Arial sans-serif;
+    font-weight: 300;
+    vertical-align: top;
+    margin: 0 2%;
+    line-height: 0.9;
+}
+
+.presentaciones .views-row  img {
+	width: 100%;
+	max-width: 568px;
+    height: auto;
+    vertical-align: bottom;
+}
+
+.presentaciones .views-field-field-titulo {
+    font-size: 15px;
+    font-weight: 700;
+    color: #29c7fc;
+    margin: 27px 0 0;
+    line-height: 1;
+}
+
+.aguila-cero .presentaciones .views-row {
+    margin: 0 4%;
+}
+
+/* @end */
+
+/* @group Aguila */
+
+.cerveza .field-name-body {
+	background: #42abda;
+	background: -webkit-linear-gradient(top, #a1e2f9, #42abda);
+	background: linear-gradient(to bottom, #a1e2f9, #42abda);
+	color:  #fff;
+	padding: 28px 20% 20px;
+	overflow: hidden;
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#a1e2f9, endColorstr=#42abda);
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient (GradientType=0, startColorstr=#a1e2f9, endColorstr=#42abda)";
+}
+
+.cerveza .field-name-body h3 {
+	color: #fff;
+	font: 32px/1em 'ITCAvantGardePro', Helvetica, Arial, sans-serif;
+	margin-top: 0;
+}
+
+.cerveza .field-name-body p {
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+.cerveza .field-name-body p:first-child {
+	margin: 0;
+	font-size: 16px;
+}
+
+.cerveza .field-name-body h3+p {
+	font-weight: 600;
+}
+
+.cerveza .field-name-body span {
+	font: 300 25px 'ITCAvantGardePro', Helvetica, Arial, sans-serif;
+}
+
+.cerveza .field-name-body .media-thumbnail-frame {
+	width: 50%;
+	margin: 20px auto 0;
+}
+
+.cerveza .field-name-body img {
+	width: 100%;
+	max-width: 314px;
+}
+
+/* @end */
+
+/* @group Aguila Light */
+
+	.cerveza.aguila-light .field-name-body {/*cambia gradiente*/
+		background: #edd58e;
+		background: -webkit-linear-gradient(top, #fef4d2, #edd58e);
+		background: linear-gradient(to bottom, #fef4d2, #edd58e);
+		filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#fef4d2, endColorstr=#edd58e);
+		-ms-filter: "progid:DXImageTransform.Microsoft.gradient (GradientType=0, startColorstr=#fef4d2, endColorstr=#edd58e)";
+        color: #9D6B14;
+	}
+    
+    .cerveza.aguila-light .field-name-body h3 {
+            color: #9D6B14;
+    }
+
+/* @end */
+
+/* @group Aguila Cero */
+
+	.cerveza.aguila-cero .field-name-body {/*cambia color*/
+		background: #afc4cb;
+		background: -webkit-linear-gradient(top, #cccccc, #afc4cb);
+		background: linear-gradient(to bottom, #cccccc, #afc4cb);
+		color:  #08315c;
+		filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#cccccc, endColorstr=#afc4cb);
+		-ms-filter: "progid:DXImageTransform.Microsoft.gradient (GradientType=0, startColorstr=#cccccc, endColorstr=#afc4cb)";
+	}
+
+	.cerveza.aguila-cero .field-name-body h3 {/*cambia color*/
+		color: #08315c;
+	}
+
+/* @end */
+
+/* @group Media Query */
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+	.presentaciones .views-row-3 .views-field-field-presentacion-imagen .field-content {
+		line-height: 240px;
+	}
+
+	.presentaciones .views-row-2 .views-field-field-presentacion-imagen .field-content {
+		line-height: 386px;
+	}
+
+}
+
+@media only screen and (min-width : 360px) {
+	
+	.presentaciones .views-row-3 .views-field-field-presentacion-imagen .field-content {
+		line-height: 386px;
+	}
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+    .node-cerveza .field-name-field-subcontenido {
+        font-size: 16px;
+    }
+
+    .presentaciones .view-header  h3{
+        font-size: 25px;
+        width: 310px;
+        padding: 10px 0 12px;
+        top: -27px;
+    }
+
+    .aguila-cero .presentaciones .views-row-2 .views-field-field-presentacion-imagen .field-content {
+		line-height: 336px;
+	}
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+    .node-cerveza .field-name-field-subcontenido {
+        font-size: 20px;
+    }
+    
+    .presentaciones .views-row {
+        font-size: 26px;
+    }
+    .presentaciones .views-field-field-titulo {
+        font-size: 29px;
+    }
+    
+    .node-cerveza .field-name-field-subcontenido {
+        height: 220px;
+        padding: 65px 20px 0;
+    }
+
+    .aguila-light .presentaciones .views-row-2 .views-field-field-presentacion-imagen .field-content {
+		line-height: 421px;
+	}
+
+	.aguila-cero .presentaciones .views-row-1 .views-field-field-presentacion-imagen .field-content,
+	.aguila-cero .presentaciones .views-row-2 .views-field-field-presentacion-imagen .field-content,
+	.aguila-cero .presentaciones .views-row-3 .views-field-field-presentacion-imagen .field-content {
+		line-height: 346px;
+	}
+
+    .cerveza.aguila-light .node-cerveza .field-name-field-subcontenido {
+    	padding-top: 57px;
+	}
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+    .node-cerveza .field-name-field-subcontenido {
+        font-size: 24px;
+    }
+
+    .presentaciones .view-header  h3{
+        font-size: 34px;
+        width: 363px;
+        padding: 10px 0 15px;
+        top: -33px;
+    }
+
+    .aguila-light .presentaciones .views-row-3 .views-field-field-presentacion-imagen .field-content {
+		line-height: 421px;
+	}
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+	.cerveza .field-name-body {
+		padding: 8px 8% 20px 19%;
+	}
+
+	.cerveza .field-name-body p:first-child {
+		margin: 78px 0 0;
+	}
+
+	.cerveza .field-name-body h3,
+	.cerveza .field-name-body p {
+		width: 60%;
+		float: left;
+	}
+
+	.cerveza .field-name-body h3 {
+		font-size: 68px;
+		line-height: .9em;
+		margin: 0 0 20px;
+	}
+
+	.cerveza .field-name-body .media-thumbnail-frame {
+		width: 314px;
+		display: inline-block;
+	}
+
+	.cerveza .field-name-body img {
+		width: 314px;
+	}
+
+	.presentaciones .view-content {
+		padding: 0 0 20px;
+        
+	}
+
+
+	.presentaciones .views-row {
+		padding-bottom: 54px;
+	}
+
+}
+/* @end */

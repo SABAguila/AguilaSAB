@@ -1,0 +1,261 @@
+    /* @group Descripcion Chicas Aguila */
+
+.descripcion-chicas-aguila {
+    color: #fff;
+    background-color: #FED847;
+    background-position: 80% bottom;
+    background-repeat: no-repeat;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    background-size: auto auto;
+    min-height: 470px;
+    padding: 0 0 120%;
+}
+
+.descripcion-chicas-aguila .col-left,
+.descripcion-chicas-aguila .col-right {
+    background-color: transparent !important;
+    border: none !important;
+    padding: 0 !important;
+}
+
+.descripcion-chicas-aguila .col-left {
+    padding: 0 !important;
+}
+
+.descripcion-chicas-aguila .views-field-field-imagen-fondo {
+    display: none;
+}
+
+.descripcion-chicas-aguila h2,
+.descripcion-chicas-aguila h3,
+.descripcion-chicas-aguila h4 {
+    font-family: 'ITCAvantGardePro', Helvetica, Arial sans-serif;
+}
+
+.descripcion-chicas-aguila h2 em,
+.descripcion-chicas-aguila h2 strong,
+.descripcion-chicas-aguila h3 em,
+.descripcion-chicas-aguila h3 strong,
+.descripcion-chicas-aguila h4 em,
+.descripcion-chicas-aguila h4 strong {
+    font-family: Dubiel, Georgia, Times, serif;
+}
+
+.descripcion-chicas-aguila p {
+    line-height: 1.65;
+}
+
+.descripcion-chicas-aguila .media-thumbnail-frame img {
+    width: auto;
+}
+
+.descripcion-chicas-aguila .btn {
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    border-color: yellow;
+    line-height: 1.7;
+}
+
+
+.descripcion-chicas-aguila .col-left {
+    float: none;
+    width: 100%;
+    padding: 15px 0 0 5%;
+}
+
+.descripcion-chicas-aguila .col-right {
+    float: none;
+    width: 100%;
+    padding: 32px 0 0 0;
+}
+
+    .descripcion-chicas-aguila h3 {
+        line-height: 65px;
+        padding-bottom: 10px;
+        font-size: 515%;
+    }
+
+    .descripcion-chicas-aguila h3 em {
+        font-size: 70%;
+        line-height: 28px;
+    }
+
+    .descripcion-chicas-aguila h4 {
+        font-size: 300%;
+        line-height: 38px;
+        margin-bottom: 30px;
+    }
+
+    .descripcion-chicas-aguila h4 em {
+        font-size: 75%;
+        line-height: 28px;
+    }
+
+    .descripcion-chicas-aguila p {
+        font-size: 128%;
+        margin-top: 25px;
+    }
+
+    .descripcion-chicas-aguila .col-right p {
+        font-size: 100%;
+    }
+    
+    
+/* @end */
+
+/* @group Media Query */
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+    .descripcion-chicas-aguila {
+        background-size: auto 215px;
+        min-height: 330px;
+        padding: 0 20px 220px 20px;
+    }
+    .descripcion-chicas-aguila .media-thumbnail-frame img {
+        width: 100%;
+    }
+    .descripcion-chicas-aguila .col-left,
+    .descripcion-chicas-aguila .col-right {
+        padding: 0 !important;
+        float: none;
+        width: 100%;
+    }
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+    .descripcion-chicas-aguila .media-thumbnail-frame img {
+        width: auto;
+    }
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+    .descripcion-chicas-aguila {
+        padding: 0 30px 220px 30px;
+    }
+
+    .descripcion-chicas-aguila h3 {
+        line-height: 45px;
+        padding-bottom: 5px;
+        font-size: 340%;
+    }
+
+    .descripcion-chicas-aguila h4 {
+        font-size: 200%;
+        line-height: 28px;
+        margin-bottom: 15px;
+    }
+
+    .descripcion-chicas-aguila .media-thumbnail-frame {
+        float: right;
+        margin-left: 20px;
+    }
+    
+.descripcion-chicas-aguila .col-left {
+    float: left;
+    width: 40%;
+    padding: 15px 0 0 5%;
+}
+
+.descripcion-chicas-aguila .col-right {
+    float: right;
+    width: 33%;
+    padding: 32px 0 0 0;
+}
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 640px) {
+    .descripcion-chicas-aguila {
+        background-position: 56% bottom;
+    }
+
+}
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+    .descripcion-chicas-aguila {
+        padding: 0;
+    }
+
+    .descripcion-chicas-aguila .col-left {
+        float: left;
+        width: 40%;
+        padding: 0 0 0 30px !important;
+    }
+
+    .descripcion-chicas-aguila .col-right {
+        float: right;
+        width: 33%;
+    }
+
+    .descripcion-chicas-aguila .media-thumbnail-frame {
+        float: none;
+        margin-left: 0;
+    }
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+    .descripcion-chicas-aguila .col-left {
+        padding: 15px 0 0 5% !important;
+    }
+
+    .descripcion-chicas-aguila .col-right {
+        padding: 32px 0 0 0 !important;
+    }
+
+    .descripcion-chicas-aguila {
+        background-size: auto auto;
+        min-height: 470px;
+        padding: 0;
+    }
+
+    .descripcion-chicas-aguila h3 {
+        line-height: 65px;
+        padding-bottom: 10px;
+        font-size: 515%;
+    }
+
+    .descripcion-chicas-aguila h3 em {
+        font-size: 70%;
+        line-height: 28px;
+    }
+
+    .descripcion-chicas-aguila h4 {
+        font-size: 300%;
+        line-height: 38px;
+        margin-bottom: 30px;
+    }
+
+    .descripcion-chicas-aguila h4 em {
+        font-size: 75%;
+        line-height: 28px;
+    }
+
+    .descripcion-chicas-aguila p {
+        font-size: 128%;
+        margin-top: 25px;
+    }
+
+    .descripcion-chicas-aguila .col-right p {
+        font-size: 100%;
+    }
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
+
+/* @end */

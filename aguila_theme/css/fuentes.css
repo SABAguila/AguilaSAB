@@ -1,0 +1,283 @@
+/* @group Fonts */
+
+/* AkzidenzGroteskBQ */
+/*
+AkzidenzGroteskBQ Light:   font-style: normal | font-weight: 300
+AkzidenzGroteskBQ Regular: font-style: normal | font-weight: normal
+AkzidenzGroteskBQ Italic:  font-style: italic | font-weight: normal
+AkzidenzGroteskBQ Super:   font-style: italic | font-weight: 900
+*/
+@font-face {
+    font-family: 'AkzidenzGroteskBQ';
+    src: url('../fonts/akzidenzgroteskbq/akzidenzgroteskbq-light-webfont.eot');
+    src: url('../fonts/akzidenzgroteskbq/akzidenzgroteskbq-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/akzidenzgroteskbq/akzidenzgroteskbq-light-webfont.woff2') format('woff2'),
+         url('../fonts/akzidenzgroteskbq/akzidenzgroteskbq-light-webfont.woff') format('woff'),
+         url('../fonts/akzidenzgroteskbq/akzidenzgroteskbq-light-webfont.ttf') format('truetype'),
+         url('../fonts/akzidenzgroteskbq/akzidenzgroteskbq-light-webfont.svg#akzidenz-grotesk_bq_lightRg') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AkzidenzGroteskBQ';
+    src: url('../fonts/akzidenzgroteskbq/akzidenzgroteskbq-webfont.eot');
+    src: url('../fonts/akzidenzgroteskbq/akzidenzgroteskbq-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/akzidenzgroteskbq/akzidenzgroteskbq-webfont.woff2') format('woff2'),
+         url('../fonts/akzidenzgroteskbq/akzidenzgroteskbq-webfont.woff') format('woff'),
+         url('../fonts/akzidenzgroteskbq/akzidenzgroteskbq-webfont.ttf') format('truetype'),
+         url('../fonts/akzidenzgroteskbq/akzidenzgroteskbq-webfont.svg#akzidenz-grotesk_bqregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AkzidenzGroteskBQ';
+    src: url('../fonts/akzidenzgroteskbq/akzidenzgroteskbq-italic-webfont.eot');
+    src: url('../fonts/akzidenzgroteskbq/akzidenzgroteskbq-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/akzidenzgroteskbq/akzidenzgroteskbq-italic-webfont.woff2') format('woff2'),
+         url('../fonts/akzidenzgroteskbq/akzidenzgroteskbq-italic-webfont.woff') format('woff'),
+         url('../fonts/akzidenzgroteskbq/akzidenzgroteskbq-italic-webfont.ttf') format('truetype'),
+         url('../fonts/akzidenzgroteskbq/akzidenzgroteskbq-italic-webfont.svg#akzidenz-grotesk_bqitalic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'AkzidenzGroteskBQ';
+    src: url('../fonts/akzidenzgroteskbq/akzidenzgroteskbq-super-webfont.eot');
+    src: url('../fonts/akzidenzgroteskbq/akzidenzgroteskbq-super-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/akzidenzgroteskbq/akzidenzgroteskbq-super-webfont.woff2') format('woff2'),
+         url('../fonts/akzidenzgroteskbq/akzidenzgroteskbq-super-webfont.woff') format('woff'),
+         url('../fonts/akzidenzgroteskbq/akzidenzgroteskbq-super-webfont.ttf') format('truetype'),
+         url('../fonts/akzidenzgroteskbq/akzidenzgroteskbq-super-webfont.svg#akzidenz-grotesk_bq_superRg') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+
+/* Antipasto */
+/*
+Antipasto Regular: font-style: normal | font-weight: normal
+*/
+@font-face {
+    font-family: 'Antipasto';
+    src: url('../fonts/antipasto/antipasto-webfont.eot');
+    src: url('../fonts/antipasto/antipasto-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/antipasto/antipasto-webfont.woff2') format('woff2'),
+         url('../fonts/antipasto/antipasto-webfont.woff') format('woff'),
+         url('../fonts/antipasto/antipasto-webfont.ttf') format('truetype'),
+         url('../fonts/antipasto/antipasto-webfont.svg#antipastoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Dubiel */
+/*
+Dubiel Regular: font-style: normal | font-weight: normal
+Dubiel Italic:  font-style: italic | font-weight: normal
+*/
+@font-face {
+    font-family: 'Dubiel';
+    src: url('../fonts/dubiel/dubiel_regular/Dubiel-webfont.eot');
+    src: url('../fonts/dubiel/dubiel_regular/Dubiel-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/dubiel/dubiel_regular/Dubiel-webfont.woff') format('woff'),
+         url('../fonts/dubiel/dubiel_regular/Dubiel-webfont.ttf') format('truetype'),
+         url('../fonts/dubiel/dubiel_regular/Dubiel-webfont.svg#dubielplainregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Dubiel';
+    src: url('../fonts/dubiel/dubiel_italic/DubielItalic-webfont.eot');
+    src: url('../fonts/dubiel/dubiel_italic/DubielItalic-webfont.woff') format('woff'),
+         url('../fonts/dubiel/dubiel_italic/DubielItalic-webfont.ttf') format('truetype'),
+         url('../fonts/dubiel/dubiel_italic/DubielItalic-webfont.svg#dubielitalic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+
+/* Dubiel accented characters (á,é,í,ó,ú,ñ) are displayed bigger than the rest, use <span class='tilde'>ñ</span> to reduce them to 90% */
+.tilde { 
+    font-size: 90%;
+}
+
+/* ITCAvantGardePro */
+/*
+ITCAvantGardePro Book:    font-style: normal | font-weight: 300
+ITCAvantGardePro Regular: font-style: normal | font-weight: normal
+ITCAvantGardePro Bold:    font-style: normal | font-weight: 700
+*/
+@font-face {
+    font-family: 'ITCAvantGardePro';
+    src: url('../fonts/itcavantgardepro/itcavantgardepro-bk.eot') format('embedded-opentype');
+    src: url('../fonts/itcavantgardepro/itcavantgardepro-bk.woff') format('woff'),
+         url('../fonts/itcavantgardepro/itcavantgardepro-bk.woff2') format('woff2'),
+         url('../fonts/itcavantgardepro/itcavantgardepro-bk.ttf') format('truetype'),
+         url('../fonts/itcavantgardepro/itcavantgardepro-bk.svg') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ITCAvantGardePro';
+    src: url('../fonts/itcavantgardepro/itcavantgardepro.eot') format('embedded-opentype');
+    src: url('../fonts/itcavantgardepro/itcavantgardepro.woff') format('woff'),
+         url('../fonts/itcavantgardepro/itcavantgardepro.woff2') format('woff2'),
+         url('../fonts/itcavantgardepro/itcavantgardepro.ttf') format('truetype'),
+         url('../fonts/itcavantgardepro/itcavantgardepro.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ITCAvantGardePro';
+    src: url('../fonts/itcavantgardepro/itcavantgardepro-bold.eot') format('embedded-opentype');
+    src: url('../fonts/itcavantgardepro/itcavantgardepro-bold.woff') format('woff'),
+         url('../fonts/itcavantgardepro/itcavantgardepro-bold.woff2') format('woff2'),
+         url('../fonts/itcavantgardepro/itcavantgardepro-bold.ttf') format('truetype'),
+         url('../fonts/itcavantgardepro/itcavantgardepro-bold.svg') format('svg');
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* Lavanderia */
+/*
+Lavanderia Regular: font-style: normal | font-weight: normal
+*/
+@font-face {
+    font-family: 'Lavanderia';
+    src: url('../fonts/lavanderia/lavanderia-webfont.eot');
+    src: url('../fonts/lavanderia/lavanderia-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/lavanderia/lavanderia-webfont.woff2') format('woff2'),
+         url('../fonts/lavanderia/lavanderia-webfont.woff') format('woff'),
+         url('../fonts/lavanderia/lavanderia-webfont.ttf') format('truetype'),
+         url('../fonts/lavanderia/lavanderia-webfont.svg#lavanderia_sturdysturdy') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Retina Display */
+/*
+Retina Display Thin:     font-style: normal | font-weight: 200
+Retina Display Light:    font-style: normal | font-weight: 300
+Retina Display Regular:  font-style: normal | font-weight: normal
+Retina Display Semibold: font-style: normal | font-weight: 600
+Retina Display Bold:     font-style: normal | font-weight: 700
+Retina Display Black:    font-style: normal | font-weight: 900
+*/
+@font-face {
+    font-family: 'Retina Display';
+    src: url('../fonts/retina_display/retina_display-thin-webfont.eot');
+    src: url('../fonts/retina_display/retina_display-thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/retina_display/retina_display-thin-webfont.woff2') format('woff2'),
+         url('../fonts/retina_display/retina_display-thin-webfont.woff') format('woff'),
+         url('../fonts/retina_display/retina_display-thin-webfont.ttf') format('truetype'),
+         url('../fonts/retina_display/retina_display-thin-webfont.svg#retina_displaythin') format('svg');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Retina Display';
+    src: url('../fonts/retina_display/retina_display-light-webfont.eot');
+    src: url('../fonts/retina_display/retina_display-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/retina_display/retina_display-light-webfont.woff2') format('woff2'),
+         url('../fonts/retina_display/retina_display-light-webfont.woff') format('woff'),
+         url('../fonts/retina_display/retina_display-light-webfont.ttf') format('truetype'),
+         url('../fonts/retina_display/retina_display-light-webfont.svg#retina_displaylight') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Retina Display';
+    src: url('../fonts/retina_display/retina_display-medium-webfont.eot');
+    src: url('../fonts/retina_display/retina_display-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/retina_display/retina_display-medium-webfont.woff2') format('woff2'),
+         url('../fonts/retina_display/retina_display-medium-webfont.woff') format('woff'),
+         url('../fonts/retina_display/retina_display-medium-webfont.ttf') format('truetype'),
+         url('../fonts/retina_display/retina_display-medium-webfont.svg#retina_displaymedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Retina Display';
+    src: url('../fonts/retina_display/retina_display-semibold-webfont.eot');
+    src: url('../fonts/retina_display/retina_display-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/retina_display/retina_display-semibold-webfont.woff2') format('woff2'),
+         url('../fonts/retina_display/retina_display-semibold-webfont.woff') format('woff'),
+         url('../fonts/retina_display/retina_display-semibold-webfont.ttf') format('truetype'),
+         url('../fonts/retina_display/retina_display-semibold-webfont.svg#retina_displaysemibold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Retina Display';
+    src: url('../fonts/retina_display/retina_display-bold-webfont.eot');
+    src: url('../fonts/retina_display/retina_display-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/retina_display/retina_display-bold-webfont.woff2') format('woff2'),
+         url('../fonts/retina_display/retina_display-bold-webfont.woff') format('woff'),
+         url('../fonts/retina_display/retina_display-bold-webfont.ttf') format('truetype'),
+         url('../fonts/retina_display/retina_display-bold-webfont.svg#retina_displaybold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Retina Display';
+    src: url('../fonts/retina_display/retina_display-black-webfont.eot');
+    src: url('../fonts/retina_display/retina_display-black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/retina_display/retina_display-black-webfont.woff2') format('woff2'),
+         url('../fonts/retina_display/retina_display-black-webfont.woff') format('woff'),
+         url('../fonts/retina_display/retina_display-black-webfont.ttf') format('truetype'),
+         url('../fonts/retina_display/retina_display-black-webfont.svg#retina_displayblack') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+
+/* Retina Display Condensed */
+/*
+Retina Display Condensed Semibold: font-style: normal | font-weight: 600
+Retina Display Condensed Bold:     font-style: normal | font-weight: 700
+Retina Display Condensed Black:    font-style: normal | font-weight: 900
+*/
+@font-face {
+    font-family: 'Retina Display Condensed';
+    src: url('../fonts/retina_display_condensed/retina_display_cond-semibd-webfont.eot');
+    src: url('../fonts/retina_display_condensed/retina_display_cond-semibd-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/retina_display_condensed/retina_display_cond-semibd-webfont.woff2') format('woff2'),
+         url('../fonts/retina_display_condensed/retina_display_cond-semibd-webfont.woff') format('woff'),
+         url('../fonts/retina_display_condensed/retina_display_cond-semibd-webfont.ttf') format('truetype'),
+         url('../fonts/retina_display_condensed/retina_display_cond-semibd-webfont.svg#retina_display_condensedSBd') format('svg');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Retina Display Condensed';
+    src: url('../fonts/retina_display_condensed/retina_display_cond-bold-webfont.eot');
+    src: url('../fonts/retina_display_condensed/retina_display_cond-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/retina_display_condensed/retina_display_cond-bold-webfont.woff2') format('woff2'),
+         url('../fonts/retina_display_condensed/retina_display_cond-bold-webfont.woff') format('woff'),
+         url('../fonts/retina_display_condensed/retina_display_cond-bold-webfont.ttf') format('truetype'),
+         url('../fonts/retina_display_condensed/retina_display_cond-bold-webfont.svg#retina_display_condensedbold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Retina Display Condensed';
+    src: url('../fonts/retina_display_condensed/retina_display_cond-black-webfont.eot');
+    src: url('../fonts/retina_display_condensed/retina_display_cond-black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/retina_display_condensed/retina_display_cond-black-webfont.woff2') format('woff2'),
+         url('../fonts/retina_display_condensed/retina_display_cond-black-webfont.woff') format('woff'),
+         url('../fonts/retina_display_condensed/retina_display_cond-black-webfont.ttf') format('truetype'),
+         url('../fonts/retina_display_condensed/retina_display_cond-black-webfont.svg#retina_display_condensedblack') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+
+/* @end */

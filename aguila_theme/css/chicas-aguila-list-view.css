@@ -1,0 +1,120 @@
+/* @group Chicas Aguila list view */
+
+/* @end */
+
+.chicas-aguila .view-banner-principal {
+    background-color: #feda00;
+}
+
+.node-page[about="/chicas-aguila"] .field-items {
+	margin: 20px auto;
+	overflow: hidden;
+    text-align: center;
+}
+
+.item-lista-chicas-aguila {
+	background-color: transparent !important;
+    border: none !important;
+    padding: 0 !important;
+    display: inline-block;
+    text-align: center;
+    margin: 0 10px 10px;
+    width:  248px;
+    vertical-align: top;
+}
+
+.item-lista-chicas-aguila h4 {
+	font: 700 140% "ITCAvantGardePro", Helvetica, Arial sans-serif;
+	color: #000;
+	text-transform: uppercase;
+	margin: 0 0 25px;
+}
+
+.item-lista-chicas-aguila .media-thumbnail-frame {
+	margin: 0 0 30px;
+}
+
+.item-lista-chicas-aguila p {
+	font: 300 100% "Open Sans", Helvetica, Arial, sans-serif;
+	color: #747474;
+}
+
+.item-lista-chicas-aguila .media-image {
+	border-radius: 50%;
+	max-width: 50%;
+}
+
+/* @group Media Query */
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+	.node-page[about="/chicas-aguila"] .field-items {
+		max-width: 760px;
+		margin: 116px auto 130px;
+	}
+
+	.item-lista-chicas-aguila {
+    	margin: 0 26px 20px;
+    	width:  248px;
+    	min-height: 450px;
+	}
+
+	.item-lista-chicas-aguila h4 {
+		font-size: 170%;
+	}
+
+	.item-lista-chicas-aguila p {
+		font-size: 130%;
+	}
+
+	.item-lista-chicas-aguila .media-image {
+		max-width: 100%;
+	}
+
+	.item-lista-chicas-aguila .media-thumbnail-frame {
+		margin: 0 0 45px;
+	}
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+	.node-page[about="/chicas-aguila"] .field-items {
+		max-width: 992px;
+	}
+
+	.item-lista-chicas-aguila {
+    	margin: 0 15px 20px;
+    	width: 218px;
+	}
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+	.node-page[about="/chicas-aguila"] .field-items {
+		max-width: 1210px;
+	}
+
+	.item-lista-chicas-aguila {
+    	margin: 0 26px;
+    	width:  247px;
+	}
+
+}
+/* @end */

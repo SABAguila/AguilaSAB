@@ -1,0 +1,222 @@
+/* @group Banner Cervezas */
+
+.view-banner-cervezas {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.wrapper-footer .stack.stack-prefooter {
+    padding: 0;
+}
+
+.view-banner-cervezas ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 12px;
+}
+
+.view-banner-cervezas ul li {
+    display: inline-block;
+    width: 100%;
+    margin:0 !important;
+    position: relative;
+    height: 165px;
+}
+
+.view-banner-cervezas .views-field-field-cerveza-descripcion-corta a {
+    text-decoration:none;
+}
+.view-banner-cervezas .views-field-field-cerveza-descripcion-corta a:link,
+.view-banner-cervezas .views-field-field-cerveza-descripcion-corta a:active,
+.view-banner-cervezas .views-field-field-cerveza-descripcion-corta a:visited,
+.view-banner-cervezas .views-field-field-cerveza-descripcion-corta a:hover {
+    color: #484848;
+}
+
+.view-banner-cervezas .celeste .views-field-field-cerveza-descripcion-corta a:link,
+.view-banner-cervezas .celeste .views-field-field-cerveza-descripcion-corta a:active,
+.view-banner-cervezas .celeste .views-field-field-cerveza-descripcion-corta a:visited,
+.view-banner-cervezas .celeste .views-field-field-cerveza-descripcion-corta a:hover {
+    color: #fff;
+}
+
+.view-banner-cervezas .views-field-field-imagen-botella {
+    padding: 12px 9.5%;
+}
+
+.view-banner-cervezas .views-field-field-imagen-botella img {
+    height:140px;
+    width: auto;
+}
+
+
+.view-banner-cervezas .views-field-field-cerveza-descripcion-corta {
+    position: absolute;
+    left: 34%;
+    top: 15px;
+    width: 60%;
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    transition: top 0.3s;
+
+}
+
+.view-banner-cervezas .views-field-field-cerveza-descripcion-corta p:first-child {
+    text-transform: uppercase;
+    margin-bottom: 1px;
+    font-family: 'Retina Display', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+.view-banner-cervezas .views-field-field-cerveza-descripcion-corta p strong {
+    font-size: 25px;
+    line-height: 23px;
+    letter-spacing: -0.5px;
+    font-weight: 900;
+}
+
+.view-banner-cervezas .views-field-field-cerveza-descripcion-corta p span {
+    letter-spacing: -0.4px;
+}
+
+.view-banner-cervezas .amarillo {
+    background: rgb(220,194,0); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(220,194,0,1) 0%, rgba(255,246,0,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(220,194,0,1)), color-stop(100%,rgba(255,246,0,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(220,194,0,1) 0%,rgba(255,246,0,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(220,194,0,1) 0%,rgba(255,246,0,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(220,194,0,1) 0%,rgba(255,246,0,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(220,194,0,1) 0%,rgba(255,246,0,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dcc200', endColorstr='#fff600',GradientType=0 ); /* IE6-9 */
+}
+
+.view-banner-cervezas .vainilla {
+    background: rgb(207,194,143); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(207,194,143,1) 0%, rgba(255,240,179,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(207,194,143,1)), color-stop(100%,rgba(255,240,179,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(207,194,143,1) 0%,rgba(255,240,179,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(207,194,143,1) 0%,rgba(255,240,179,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(207,194,143,1) 0%,rgba(255,240,179,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(207,194,143,1) 0%,rgba(255,240,179,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cfc28f', endColorstr='#fff0b3',GradientType=0 ); /* IE6-9 */
+}
+
+.view-banner-cervezas .celeste {
+    color: #fff;
+    background: rgb(0,112,191); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(0,112,191,1) 0%, rgba(149,211,255,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,112,191,1)), color-stop(100%,rgba(149,211,255,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(0,112,191,1) 0%,rgba(149,211,255,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(0,112,191,1) 0%,rgba(149,211,255,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(0,112,191,1) 0%,rgba(149,211,255,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(0,112,191,1) 0%,rgba(149,211,255,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0070bf', endColorstr='#95d3ff',GradientType=0 ); /* IE6-9 */
+}
+
+.view-banner-cervezas .views-field-title {
+    position: absolute;
+    top: 115px;
+    left: 33%;
+    display: none;
+}
+
+.view-banner-cervezas li:hover .views-field-title {
+    display: block;
+}
+
+.view-banner-cervezas .views-field-title a {
+    color: #fff;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+/* @end */
+
+/* @group Media Query */
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 360px) {
+
+    .view-banner-cervezas .views-field-field-imagen-botella {
+        padding: 12px 5%;
+    }
+
+    .view-banner-cervezas .views-field-field-cerveza-descripcion-corta {
+        left: 23%;
+    }
+
+    .view-banner-cervezas .views-field-title {
+        left: 22%;
+    }
+}
+
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+    .view-banner-cervezas ul li {
+        width: 33.3%;
+        float:left;
+        height: 290px;
+    }
+
+    .view-banner-cervezas .views-field-field-imagen-botella img {
+        height: auto;
+    }
+
+    .view-banner-cervezas .views-field-field-cerveza-descripcion-corta {
+        left: 45%;
+        width: 50%;
+        top: 67px;
+    }
+
+    .view-banner-cervezas li:hover .views-field-field-cerveza-descripcion-corta {
+        top: 44px;
+    }
+
+    .view-banner-cervezas .views-field-title {
+        top: 238px;
+        left: 15%;
+    }
+
+    .view-banner-cervezas .views-field-title a {
+        font-size: 12px;
+    }
+
+ 
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+    .view-banner-cervezas ul li {
+        height: 240px;
+    }
+
+    .view-banner-cervezas .views-field-field-cerveza-descripcion-corta {
+        left: 35%;
+        width: 60%;
+    }
+
+    .view-banner-cervezas .views-field-title {
+        top: 152px;
+        left: 33%;
+    }
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
+/* @end */

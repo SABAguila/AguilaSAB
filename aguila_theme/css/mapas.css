@@ -1,0 +1,209 @@
+/* @group Mapas */
+
+.mapa-lugar-detalle {
+    min-height: 200px;
+    max-width: 1280px;
+    margin: 0 32px;
+}
+
+.map-info-window  {
+    line-height:1.35;
+    overflow:hidden;
+    /*white-space:nowrap;*/
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    text-align: center;
+    color: white;
+}
+.map-info-window #social{
+    height: 37px;
+    margin: 0;
+    padding: 0;
+}
+
+ul#social li{
+    border-right: 1px solid rgba(57, 182, 211, 0.89);
+    list-style: none;
+    height: 37px;
+    width: 50%;
+    display: inline-block;
+    margin-top: 0px;
+    background: #0a5d99;
+    cursor: pointer;
+    background: url(/sites/g/files/ogq1136/f/201504/Social-sprite.png);
+}
+ul#social li:first-of-type{
+   background-position: left; 
+}
+ul#social li:last-of-type{
+   background-position: right; 
+}
+div.information{
+    background:#efcb00;
+    color:rgba(11, 93, 153, 1);
+    padding: 5px;
+}
+div.information>div {
+  text-align: left;
+  padding-left: 6px;
+}
+.gm-style .gm-style-iw{
+    overflow: hidden;
+    line-height: 0;
+}
+.mapa-eventos .map-info-window  {
+    min-height: 90px;
+    min-width: 180px;
+    padding-top: 15px;
+}
+
+.map-info-window h1 {
+    font-size: 13px;
+    color: white!important;
+    width: 214px;
+    padding: 0px 13px;
+    margin-top: 10px;
+}   
+.map-info-window img{
+    margin-top: 13px; 
+}
+.map-info-window .event-date {
+    color: #28c8fe;
+    font-family: 'ITCAvantGardePro', Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    float: left;
+    font-size: 20px;
+    text-transform: lowercase;
+    text-align: left;
+    line-height: 38px;
+    letter-spacing: 0px;
+    width: 58px;
+    margin-left: 11px;
+}
+
+.dzstooltip .map-info-window .event-date {
+    margin-left: 0px;
+}   
+
+.map-info-window .event-day {
+    font-size: 40px;
+    line-height: 1;
+}
+
+.map-info-window .event-title {
+    font-size: 16px;
+    font-weight: normal;
+    color: #4a4a4a;
+    white-space: normal;
+}
+
+.map-info-window .event-subtitle {
+    font-size: 12px;
+    color: #979696;
+}
+
+
+/* @end */
+
+
+/*Map Customization*/
+
+/* @group Media Query */
+
+/* Custom, iPhone Retina */
+
+@media only screen and (max-width : 500px) {
+    .gm-style-iw {
+        width: 150px!important;
+        top: 0px !important;
+        left: 17px !important;
+        background-color: rgba(0, 170, 216, 0.77);
+        box-shadow: 0 1px 6px rgba(178, 178, 178, 0.6);
+        border-radius: 2px;
+    }
+    .map-info-window img{
+        width: 35%;
+        margin-top: 9px;
+    }
+    .map-info-window h1{
+        width: 150px;
+        font-size:100%;
+        margin-top:5px;
+    }
+    ul#social li:first-of-type{
+        background-position: -67% -9px; 
+    }
+    ul#social li:last-of-type{
+        background-position: 14% -9px; 
+    }
+    ul#social li{
+       height: 25px; 
+    }
+    div.information{
+        font-size: 10px;
+        line-height: 11px;
+    }
+    .map-info-window #social{
+        height: 25px;
+    }
+}
+@media only screen and (min-width : 320px) {
+    .mapa-lugar-detalle {
+        min-height: 390px;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+    .mapa-lugar-detalle {
+        min-height: 400px;
+    }
+    
+    .mapa-eventos .map-info-window  {
+        min-height: 122px;
+        min-width: 300px;
+        padding-top: 21px;
+    }
+
+    .map-info-window .event-date {
+        font-size: 27px;
+        line-height: 38px;
+        width: 108px;
+    }
+    
+    .map-info-window .event-day {
+        font-size: 72px;
+    }
+    
+    .map-info-window .event-title {
+        font-size: 18px;
+    }
+    .gm-style-iw {
+        width: 214px !important;
+        top: 0px !important;
+        left: 17px !important;
+        background-color: rgba(0, 170, 216, 0.77);
+        box-shadow: 0 1px 6px rgba(178, 178, 178, 0.6);
+        border-radius: 2px;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+    .mapa-lugar-detalle {
+        min-height: 500px;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+    .mapa-lugar-detalle {
+        margin: 0 auto;
+    }
+}
+/* @end */

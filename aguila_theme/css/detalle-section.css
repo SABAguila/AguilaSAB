@@ -1,0 +1,187 @@
+/* @group Contenido detalle */
+
+.node-type-lugar-de-fiesta .content-area,
+.node-type-media-gallery .content-area,
+.node-type-article .content-area {
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-size: 100%;
+    line-height: 1.71;
+    color: #999;
+    padding: 17px 10px;
+}
+
+.node-type-article .content-area {
+    padding: 0 10px;
+}
+
+.content-area h1,
+.content-area h2,
+.content-area h3,
+.content-area h1 + p strong,
+.content-area h2 + p strong,
+.content-area address,
+.content-area .field-label,
+.content-area .no-access {
+    color: #000;
+}
+
+.node-type-lugar-de-fiesta .content-area h1,
+.node-type-lugar-de-fiesta .content-area h2,
+.node-type-article .content-area h1,
+.node-type-article .content-area h2,
+.node-type-media-gallery .content-area h1,
+.node-type-media-gallery .content-area h2,
+.content-area .no-access {
+    font-family: "ITCAvantGardePro", Helvetica, Arial, sans-serif;
+    font-size: 300%;
+    line-height: 1;
+}
+
+.content-area .no-access {
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    padding: 40px 0;
+}
+.node-type-lugar-de-fiesta .content-area p,
+.node-type-media-gallery .content-area p,
+.node-type-article .content-area p {
+    margin: 0 0 15px 0;
+    line-height: 1.74;
+    font-size: 90%;
+}
+
+.node-type-lugar-de-fiesta .content-area h1 + p strong,
+.node-type-lugar-de-fiesta .content-area h2 + p strong,
+.node-type-article .content-area h1 + p strong,
+.node-type-article .content-area h2 + p strong,
+.node-type-media-gallery .content-area h1 + p strong,
+.node-type-media-gallery .content-area h2 + p strong,
+.node-type-lugar-de-fiesta .content-area address strong,
+.node-type-article .content-area address strong,
+.node-type-lugar-de-fiesta .content-area h3,
+.node-type-article .content-area h3 {
+    font-weight: 600;
+}
+
+.node-type-lugar-de-fiesta .content-area h3,
+.node-type-media-gallery .content-area h3,
+.node-type-article .content-area h3 {
+    font-weight: 700;
+    font-size: 164%;
+}
+
+
+.node-type-lugar-de-fiesta .content-area address strong,
+.node-type-media-gallery .content-area address strong,
+.node-type-article .content-area address strong {
+    font-size: 131%;
+}
+
+.node-type-lugar-de-fiesta .content-area address,
+.node-type-media-gallery .content-area address,
+.node-type-article .content-area address {
+    font-weight: 300;
+    font-size: 100%;
+    line-height: 1.4;
+}
+
+.node-type-lugar-de-fiesta .content-area .field-name-body,
+.node-type-media-gallery .content-area .field-name-body,
+.node-type-article .content-area .field-name-body {
+    padding: 10px 0 0 0;
+    margin: 0 0 30px !important;
+}
+
+.content-area .view-ver-lugar-fiesta-en-mapa a {
+    display: inline-block;
+    font-size: 100%;
+    padding: 0;
+    text-decoration: none;
+    color: #868686;
+}
+
+.content-area .view-ver-lugar-fiesta-en-mapa .btn.btn-symbol-geo-gray {
+    padding: 0 18px;
+    margin: 0 0 0 8px;
+    min-height: 36px;
+    border-color: #9d9d9d;
+    background-position: -3px -524px;
+}
+
+.fivestar-static-item .form-item {
+    margin: 10px 0;
+}
+
+.node-type-lugar-de-fiesta .contenedor-video-responsive iframe,
+.node-type-article .contenedor-video-responsive iframe {
+    width: 100%;
+}
+
+/* @end */
+
+/* @group Media Query */
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+    .node-type-lugar-de-fiesta .content-area h1,
+    .node-type-lugar-de-fiesta .content-area h2,
+    .node-type-media-gallery .content-area h1,
+    .node-type-media-gallery .content-area h2,
+    .node-type-article .content-area h1,
+    .node-type-article .content-area h2 {
+        font-size: 428%;
+    }
+
+    .node-type-lugar-de-fiesta .content-area p,
+    .node-type-media-gallery .content-area p,
+    .node-type-article .content-area p {
+        margin: 0 0 25px 0;
+        font-size: 100%;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+    .node-type-lugar-de-fiesta .content-area .field-name-body,
+    .node-type-media-gallery .content-area .field-name-body,
+    .node-type-article .content-area .field-name-body {
+        padding: 10px 0 0;
+        margin: 0 0 60px !important;
+    }
+
+    .node-type-lugar-de-fiesta .content-area address,
+    .node-type-media-gallery .content-area address,
+    .node-type-article .content-area address {
+        font-size: 128%;
+    }
+
+    .node-type-lugar-de-fiesta .content-area {
+        padding: 17px 0 0 12px;
+    }
+
+    .node-type-article .content-area {
+        padding: 0 0 0 10px;
+    }
+
+    .node-type-lugar-de-fiesta .contenedor-video-responsive iframe,
+    .node-type-article .contenedor-video-responsive iframe {
+        width: 97%;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
+/* @end */

@@ -1,0 +1,90 @@
+/* @group Calendario Aguila */
+
+.media-thumbnail-frame + br,
+.calendarContainer > p{
+    display: none;
+}
+
+.calendarContainer.dzscalendar {
+    border: none !important;
+    font-family: 'ITCAvantGardePro', Helvetica, Arial, sans-serif;
+    font-weight: 200;
+    overflow: visible;
+    padding: 12px 0px;
+}
+
+.calendarContainer.dzscalendar .calendar-controls  .curr-date {
+    font-weight: 900;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-align: left;
+    padding-left: 5%;
+    color: #000000;
+}
+  
+.calendarContainer.dzscalendar .calendar-controls .arrow-right {
+    right: 26px;
+    top: 5px;
+}
+
+.calendarContainer.dzscalendar .calendar-controls .arrow-left {
+    right: 60px;
+    left: auto; 
+    top: 5px;
+}
+
+.calendarContainer.dzscalendar .calendar-controls .curr-year {
+    color: #000000;
+}
+
+.calendarContainer.dzscalendar .week-day-header {
+    font-weight: 900;
+}
+
+.calendarContainer.dzscalendar .mon-row .week-day {
+    font-style: normal;
+}
+
+.calendarContainer.dzscalendar .hasEvent, 
+.calendarContainer.dzscalendar .hasEventForHover {
+    color: #000;
+}
+
+.calendarContainer.dzscalendar .hasEvent .the-number {
+    background-color: #ffd800;
+    padding: 10px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+}
+
+.calendarContainer.dzscalendar .dzstooltip .map-info-window .event-date {
+    float: none;
+}
+
+.calendar-header {
+    color: #fff;
+    padding-top: 26px;
+    padding-left: 8%;
+    font-size: 16px;
+    line-height: 20px;
+}
+.calendar-header  .event-day {
+    height: 98px;
+}
+
+.calendar-header  .event-day span {
+    font-size: 60px;
+    line-height: 1;
+    border-bottom: solid 1px #fff;
+    padding-bottom: 8px;
+}
+
+.calendar-header  .event-title strong,
+.calendar-header  .event-title b {
+    font-size: 150%;
+}
+
+
+
+/* @end */

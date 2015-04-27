@@ -1,0 +1,230 @@
+/* @group Banner Lugar */
+.banner-lugar-fiesta {
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.banner-lugar-fiesta .views-row {
+    padding: 20px 10px;
+}
+
+.banner-lugar-fiesta .volver,
+.banner-lugar-fiesta .volver a,
+.banner-lugar-fiesta .compartir,
+.banner-lugar-fiesta .compartir span {
+    color: #fff;
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 14px;
+}
+
+.banner-lugar-fiesta .volver {
+    display: inline-block;
+    padding: 5px 30px 0 20px;
+}
+
+.banner-lugar-fiesta .volver a {
+    display: inline-block;
+    height: 30px;
+    padding-left: 30px;
+    text-decoration: underline;
+    background: url(../images/sprite.png) no-repeat -10px -170px transparent;
+}
+
+.banner-lugar-fiesta .volver,
+.banner-lugar-fiesta .tipo,
+.banner-lugar-fiesta .ver-fotos,
+.banner-lugar-fiesta .compartir {
+    margin-left: 10px;
+}
+
+.banner-lugar-fiesta .favoritos-content-type {
+    margin-left: 20px;
+}
+
+.banner-lugar-fiesta .tipo {
+    height: 37px;
+    margin-top: 10px;
+}
+
+.sin-resultados {
+    text-align: center;
+}
+
+.banner-lugar-fiesta .tipo span {
+    display: inline-block;
+    line-height: 37px;
+    padding-left: 45px;
+    font-family: Dubiel, Georgia, Times, serif;
+    font-style: italic;
+    font-size: 27px;
+    color: #ffd800;
+    background-image: url(../images/sprite-categories.png);
+    background-repeat: no-repeat;
+    background-position: -124px -123px;
+}
+
+.banner-lugar-fiesta .tipo span.hotel,
+.banner-lugar-fiesta .tipo span.hoteles,
+.banner-lugar-fiesta .tipo span.Hoteles,
+.banner-lugar-fiesta .tipo span.Hotel {
+    background-position: -127px -3px;
+}
+
+.banner-lugar-fiesta .tipo span.evento,
+.banner-lugar-fiesta .tipo span.eventos,
+.banner-lugar-fiesta .tipo span.Eventos,
+.banner-lugar-fiesta .tipo span.Evento {
+    background-position: -120px -43px;
+}
+
+.banner-lugar-fiesta .tipo span.restaurante,
+.banner-lugar-fiesta .tipo span.restaurantes,
+.banner-lugar-fiesta .tipo span.Restaurantes,
+.banner-lugar-fiesta .tipo span.Restaurante {
+    background-position: -130px -83px;
+}
+
+.banner-lugar-fiesta .tipo span.2x1 {
+    background-position: -124px -123px;
+}
+
+.banner-lugar-fiesta .tipo span.Bar,
+.banner-lugar-fiesta .tipo span.bares,
+.banner-lugar-fiesta .tipo span.Bares,
+.banner-lugar-fiesta .tipo span.bar {
+    background-position: -129px -163px;
+}
+
+.banner-lugar-fiesta .titulo {
+    margin: 10px 10px 40px 8px;
+    font-family: 'ITCAvantGardePro', Helvetica, Arial sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 40px;
+    color: #fff;
+}
+
+.banner-lugar-fiesta .ver-fotos,
+.banner-lugar-fiesta .favoritos-content-type,
+.banner-lugar-fiesta .compartir {
+    float: left;
+}
+
+.banner-lugar-fiesta .ver-fotos {
+    border: 1px solid #FFF;
+    border-radius: 20px;
+    width: 130px;
+    height: 40px;
+    text-align: center;
+}
+
+.banner-lugar-fiesta .ver-fotos,
+.banner-lugar-fiesta .ver-fotos a,
+.banner-lugar-fiesta .ver-fotos span {
+    font-family: 'Roboto', Helvetica, Arial sans-serif;
+    font-size: 14px;
+    color: #FFF;
+}
+
+.banner-lugar-fiesta .ver-fotos a,
+.banner-lugar-fiesta .ver-fotos span {
+    display: block;
+    line-height: 40px;
+}
+
+.banner-lugar-fiesta .favoritos-content-type {
+    margin-top: -7px;
+}
+
+.banner-lugar-fiesta .favoritos-content-type .flag-counter {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.banner-lugar-fiesta .compartir {
+    margin-left: 10px;
+    height: 40px;
+}
+
+.banner-lugar-fiesta .compartir span {
+    line-height: 40px;
+}
+
+.banner-lugar-fiesta .compartir .facebook,
+.banner-lugar-fiesta .compartir .twitter {
+    display: inline-block;
+    text-indent: -9999px;
+    width: 20px;
+    height: 20px;
+    margin: 10px 0;
+    background: url(../images/sprite-social.png) 0 0 no-repeat;
+}
+
+.banner-lugar-fiesta .compartir .twitter {
+    background-position: -90px -10px;
+}
+
+.banner-lugar-fiesta .compartir .facebook {
+    background-position: -90px -48px;
+}
+
+/* @end */
+
+
+/* @group Media Query */
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+    .banner-lugar-fiesta .views-row {
+        padding: 20px 10px 0;
+    }
+
+    .banner-lugar-fiesta .titulo,
+    .banner-lugar-fiesta .tipo,
+    .banner-lugar-fiesta .ver-fotos,
+    .banner-lugar-fiesta .favoritos-content-type,
+    .banner-lugar-fiesta .compartir {
+        margin-left: 40px;
+    }
+
+    .banner-lugar-fiesta .volver {
+        margin-left: 0;
+    }
+
+    .banner-lugar-fiesta .tipo {
+        margin-top: 20px;
+    }
+
+    .banner-lugar-fiesta .tipo span {
+        font-size: 36px;
+    }
+
+    .banner-lugar-fiesta .titulo {
+        margin: 10px 0 40px 35px;
+        max-width: 80%;
+        font-size: 60px;
+        line-height: 50px;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+    .banner-lugar-fiesta .views-row {
+        padding: 30px 10px 0;
+    }
+
+    .banner-lugar-fiesta .titulo {
+        max-width: 70%;
+        font-size: 80px;
+        line-height: 72px;
+    }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+    .banner-lugar-fiesta .titulo {
+        max-width: 50%;
+    }
+}
+/* @end */

@@ -1,0 +1,165 @@
+/* @group Galeria empotrada */
+
+.galeria-chicas-aguila {
+    padding: 0 20px 20px;
+}
+
+.galeria-chicas-aguila .view-header,
+.galeria-chicas-aguila .view-content {
+    max-width: 1180px;
+}
+
+.galeria-chicas-aguila .item-list {
+    clear: both;
+    padding-top: 34px;
+}
+
+.galeria-chicas-aguila .item-list ul.pager {
+    margin-top: 0;
+}
+
+.galeria-chicas-aguila .view-header h3 {
+    font-family: ITCAvantGardePro, Helvetica, Arial, sans-serif;
+    font-size: 157%;
+    font-weight: 300;
+    color: #3e3e3e;
+}
+
+.galeria-chicas-aguila .view-header strong {
+    font-weight: 700;
+    color: #29c7fc;
+}
+
+.galeria-chicas-aguila .media_gallery-header,
+.galeria-chicas-aguila .meta-wrapper {
+    display: none;
+}
+
+.galeria-chicas-aguila .media-gallery-media .media-gallery-item-wrapper {
+    margin: 0;
+    max-height: 295px;
+    overflow: hidden;
+}
+
+.galeria-chicas-aguila .mg-col {
+    margin: 0;
+}
+
+.mfp-bottom-bar {
+    margin-top: 0;
+    left: 0;
+    top: auto;
+    top: initial;
+    top: inherit;
+    bottom: 45px;
+    padding: 0 0 0 20px;
+}
+
+.mfp-bottom-bar .mfp-counter {
+    top: auto;
+    top: initial;
+    top: inherit;
+    bottom: 5px;
+    right: 20px;
+}
+
+.mfp-bottom-bar .mfp-title {
+    padding-right: 85px;
+}
+
+.mfp-bottom-bar .mfp-title > a,
+.mfp-bottom-bar .mfp-title > span {
+    padding-right: 85px;
+    margin-right: 6px;
+    padding-right: 6px;
+    word-break: normal;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+.mfp-bottom-bar .mfp-title .download {
+    border-right: 1px solid #fff;
+}
+
+.media-gallery-social-share {
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-padding-start: 0;
+    -moz-margin-before: 0;
+    -moz-margin-after: 0;
+    -moz-padding-start: 0;
+    margin-before: 0;
+    margin-after: 0;
+    padding-start: 0;
+    display: inline-block;
+}
+
+.media-gallery-social-share li {
+    display: inline-block;
+    margin: 0 3px 0 0;
+}
+
+.media-gallery-social-share a {
+    display: inline-block;
+    text-indent: -9999px;
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+    padding: 0 10px;
+    background-image: url(../images/sprite-social.png);
+    background-repeat: no-repeat;
+}
+
+.media-gallery-social-share .fb {
+    background-position: -80px -200px;
+}
+
+.media-gallery-social-share .twitter {
+    background-position: -120px -200px;
+}
+
+/* @end */
+
+/* @group Media Query */
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+    .galeria-chicas-aguila {
+        padding: 0 30px 40px 30px;
+    }
+
+    .galeria-chicas-aguila .view-header h3 {
+        font-size: 200%;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+    .galeria-chicas-aguila .view-header h3 {
+        font-size: 257%;
+        padding-left: 55px;
+        padding-bottom: 20px;
+    }
+
+    .galeria-chicas-aguila .item-list ul.pager {
+        margin-top: 58px;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+    .galeria-chicas-aguila {
+        padding: 0 0 80px 0;
+    }
+}
+/* @end */
