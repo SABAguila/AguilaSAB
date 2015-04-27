@@ -1,0 +1,199 @@
+/* @group Wrappers */
+
+.maintenance-page #page {
+  padding: 0 4em;
+}
+
+.stack,
+.deco {
+  clear: both;
+  position: relative;
+  text-align: center;
+  width: auto;
+}
+
+.stack {
+  position: relative;
+}
+
+.inset-1,
+.inset-2,
+.inset-3,
+.inset-4 {
+  width: auto;
+}
+
+.deco {
+  position: absolute;
+  display: none;
+}
+
+.deco .inner,
+.deco .layer {
+  position: absolute;
+}
+
+.deco-top,
+.deco-top .inner {
+  left: 0;
+  right: 0;
+  top: 0;
+}
+
+.deco-bottom,
+.deco-bottom .inner {
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.wrapper-content .stack,
+.wrapper-footer .stack {
+  padding-top: 2.0769em;
+}
+
+.wrapper-header p,
+.wrapper-header ul,
+.wrapper-header ol,
+.wrapper-header dl,
+.wrapper-header form,
+.wrapper-header table,
+.wrapper-header h1,
+.wrapper-header h2,
+.wrapper-header h3,
+.wrapper-header h4,
+.wrapper-header h5,
+.wrapper-header h6 {
+  margin-top: 0;
+}
+
+.stack-width,
+.deco-width {
+  margin: 0 auto;
+  position: relative;
+  text-align: left;
+}
+
+.stack-width {
+  width: auto;
+}
+
+.deco-width,
+.deco .layer {
+  width: 100%;
+}
+
+.stack .box {
+  padding-left: 1em;
+  padding-right: 1em;
+  width: auto;
+}
+
+.stack-copyright {
+  padding-bottom: 2.7692em;
+}
+
+/* @end */
+
+/* @group Grid */
+
+.col-c {
+  margin-left: 0;
+  margin-right: 0;
+  overflow: hidden;
+  padding-left: 0;
+  padding-right: 0;
+  width: auto;
+}
+
+.float-overflow {
+  overflow: hidden;
+}
+
+.col-1 .col {
+  width: 100%;
+}
+
+.col-2 .col {
+  width: 49%;
+}
+
+.col-3 .col {
+  width: 32%;
+}
+
+.col-4 .col {
+  width: 23.5%;
+}
+
+.col-5 .col {
+  width: 18.4%;
+}
+
+.col-6 .col {
+  width: 15%;
+}
+
+.col-7 .col {
+  width: 12.5714%;
+}
+
+.col-8 .col {
+  width: 10.75%;
+}
+
+.sidebar {
+  width: 200px;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.col.right {
+  margin-right: 1%;
+  padding-right: 1%;
+}
+
+.col.left {
+  margin-left: 1%;
+  padding-left: 1%;
+}
+
+.col.right:first-child {
+  margin-right: 0;
+  padding-right: 0;
+}
+
+.col.left:first-child {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.sidebar.left {
+  margin-left: 0;
+  margin-right: 1.5%;
+  padding-left: 0;
+  padding-right: 1%;
+}
+
+.sidebar.right {
+  margin-left: 1.5%;
+  margin-right: 0;
+  padding-left: 1%;
+  padding-right: 0;
+}
+
+.pane {
+  margin-top: 2.7692em; /* 18px margin-top */
+}
+
+.pane:first-child {
+  margin-top: 0;
+}
+
+/* @end */

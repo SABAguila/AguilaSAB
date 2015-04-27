@@ -1,0 +1,101 @@
+/* @group Forms */
+
+.form-item,
+.form-actions {
+  margin-bottom: 1.3846em;
+  margin-top: 1.3846em;
+}
+
+label.option,
+.webform-container-inline label {
+  display: inline-block;
+  font-weight: bold;
+  margin-right: 0.2308em;
+  width: 9em;
+  vertical-align: top;
+}
+
+fieldset label.option,
+fieldset .webform-container-inline label {
+  width: 8em;
+}
+
+.form-checkboxes label,
+.form-radios label {
+  font-weight: normal;
+}
+
+.form-checkboxes label.option,
+.form-radios label.option {
+  width: auto;
+}
+
+.form-text,
+.form-checkboxes,
+.form-radios,
+.form-select,
+.form-file,
+.form-textarea-wrapper {
+  margin-top: 0.2308em;
+}
+
+label.option + .form-text,
+.webform-container-inline label + .form-text,
+label.option + .form-checkboxes,
+.webform-container-inline label + .form-checkboxes,
+label.option + .form-radios,
+.webform-container-inline label + .form-radios,
+label.option + .form-select,
+.webform-container-inline label + .form-select,
+label.option + .form-file,
+.webform-container-inline label + .form-file {
+  margin-top: 0;
+}
+
+.form-checkboxes .form-item,
+.form-radios .form-item {
+  margin-bottom: 0.2308em;
+  margin-top: 0;
+}
+
+.form-checkbox,
+.form-radio {
+  margin-left: 0;
+}
+
+.form-type-textarea {
+  margin-bottom: 0;
+}
+
+.form-submit {
+  font-size: 1em;
+}
+
+.form-submit ~ * {
+  margin-left: 0.6923em; /* LTR */
+}
+
+.form-file {
+  background-image: -webkit-gradient(linear, 0 0, 100% 0,
+    color-stop(0.0, hsla(0.08, 100%, 100%, 0)),
+    color-stop(0.0, hsla(0.08, 100%, 100%, 1.0)),
+    color-stop(1.0, hsla(0, 100%, 100%, 1.0))
+  );
+  -webkit-border-bottom-left-radius: 6px;
+  -webkit-border-top-left-radius: 6px;
+}
+
+::-webkit-file-upload-button {
+  left: -1px;
+  position: relative;
+}
+
+.form-submit {
+  cursor: pointer;
+}
+
+.skip-to-link + h1 {
+  margin-top: 0;
+}
+
+/* @end */
