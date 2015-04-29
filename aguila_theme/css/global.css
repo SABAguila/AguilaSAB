@@ -1,4 +1,7 @@
 /* @group Global */
+body{
+    background: red;
+}
 
 .myClass{
     margin-top: 0;
