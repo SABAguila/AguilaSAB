@@ -98,15 +98,35 @@
                 var horarioFecha = node.data('horario');
                 var lugarFiesta = node.data('lugar');
                 var cuidadFiesta = node.data('ciudad');
+                
+                /**Only shows the fields with data**/
+                var infoContent = '';
+                if(node.data('fecha')!="")
+                {
+                    infoContent+= '<div class="fecha"><strong>Fecha:</strong> '+fechaFiesta+'</div>';
+                }
+                if(node.data('horario')!=""){
+                    infoContent+='<div class="horario"><strong>Hora:</strong> '+horarioFecha+'</div>';
+                }
+                if(node.data('ciudad')!=""){
+                    infoContent+='<div class="ciudad"><strong>Ciudad:</strong> '+cuidadFiesta+'</div>';
+                }
+                if( node.data('lugar')!=""){
+                    infoContent+='<div class="lugar"><strong>Lugar:</strong> '+lugarFiesta+'</div>';
+                } 
+
                 var marker = new google.maps.Marker({
                     position: position,
                     title: node.data('placename'),
                     icon: iconBase + 'markerMaps.png'
                 });
+
                 infowindow = new google.maps.InfoWindow({
-                    content: '<div class="lugar-info-window map-info-window"><img src="/sites/g/files/ogq1136/f/201504/CarnavalTooltipImg.png"><h1>' + node.data('placename') + '</h1><ul id="social"><li class="facebook"></li><li class="twitter"></li></ul><div class="information"><div class="fecha"><strong>Fecha:</strong> '+fechaFiesta+'</div><div class="horario"><strong>Hora:</strong> '+horarioFecha+'</div><div class="ciudad"><strong>Ciudad:</strong> '+cuidadFiesta+'</div><div class="lugar"><strong>Lugar:</strong> '+lugarFiesta+'</div></div></div>',
+                    content: '<div class="lugar-info-window map-info-window"><img src="/sites/g/files/ogq1136/f/201504/CarnavalTooltipImg.png"><h1>' + node.data('placename') + '</h1><ul id="social"><li class="facebook"></li><li class="twitter"></li></ul><div class="information">'+infoContent+'</div></div>',
                     maxWidth : 215
                 });
+
+               
                 node.data("marker",marker);
                 node.data("position",position);
                 node.data("infowindow",infowindow);

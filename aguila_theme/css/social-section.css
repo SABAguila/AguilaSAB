@@ -66,14 +66,14 @@
 }
 
 .socialHeader .instagram {
-    background-color: #58df73;
-    border-color: #58df73;
+    background-color: #3f729b;
+    border-color: #3f729b;
     background-position: -40px -160px;
 }
 
 .socialHeader .instagram:hover {
-    background-color: #76ee8e;
-    border-color: #76ee8e;
+    background-color: #8caac3;
+    border-color: #8caac3;
 }
 
 /* @end */
@@ -189,11 +189,11 @@
 }
 
 .socialFooter .instagram {
-    background-color: #58df73;
+    background-color: #3f729b;
 }
 
 .socialFooter .instagram:hover {
-    background-color: #76ee8e;
+    background-color: #8caac3;
 }
 
 .socialFooter .instagram:before {

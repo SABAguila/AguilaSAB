@@ -2,7 +2,7 @@
 
 .mapa-lugar-detalle {
     min-height: 200px;
-    max-width: 1280px;
+    max-width: 1170px;
     margin: 0 32px;
 }
 
@@ -41,11 +41,17 @@ ul#social li:last-of-type{
 div.information{
     background:#efcb00;
     color:rgba(11, 93, 153, 1);
-    padding: 5px;
+    padding: 0px 5px 0 5px;
 }
 div.information>div {
   text-align: left;
   padding-left: 6px;
+}
+div.information>div:first-of-type {
+  padding-top: 5px;
+}
+div.information>div:last-of-type {
+  padding-bottom: 5px;
 }
 .gm-style .gm-style-iw{
     overflow: hidden;
