@@ -161,18 +161,24 @@
 
 .stack-copyright p {
     text-align: center;
-    font-size: 153%;
+    font-size: 120%;
     letter-spacing: -0.2px;
     font-family: 'Retina Display Condensed', 'Open Sans', Helvetica, Arial, sans-serif;
+    display: inline;
 }
 
 .stack-copyright img {
-    display: inline-block;
-    width: 100%;
+    /*display: inline-block;
+    width: 100%;*/
+}
+.stack-copyright .media-thumbnail-frame {
+    display: inline;
+      padding: 0 0 0 10px;
 }
 
 .stack-copyright .content {
     margin: 0 auto;
+    text-align: center;
 }
 
 /* @end */
