@@ -39,6 +39,14 @@
 	color: #747474;
 }
 
+.item-lista-chicas-aguila p>a {
+	color: white;
+}
+.item-lista-chicas-aguila p>a:hover{
+	text-decoration: none;
+	font-weight: bold;
+}
+
 .item-lista-chicas-aguila .media-image {
 	border-radius: 50%;
 	max-width: 50%;
