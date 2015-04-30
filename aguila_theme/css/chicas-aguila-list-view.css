@@ -133,8 +133,8 @@
 	}
 
 	.item-lista-chicas-aguila {
-    	margin: 0 26px 20px;
-    	width:  248px;
+    	/*margin: 0 26px 20px;
+    	width:  248px;*/
     	min-height: 450px;
 	}
 
@@ -164,8 +164,8 @@
 	}
 
 	.item-lista-chicas-aguila {
-    	margin: 0 15px 20px;
-    	width: 218px;
+    	/*margin: 0 15px 20px;
+    	width: 218px;*/
 	}
 
 }
