@@ -3,7 +3,7 @@
     $(document).ready(function(){
         //Put nececsaryclasses for initialize slider
         $(".item-lista-chicas-aguila").parent().addClass("parent-slick").attr("id","conocelas");
-        $(".item-lista-chicas-aguila").closest(".field-items").addClass("container-slider")append("<div class='deg left'></div><div class='deg right'></div>");
+        $(".item-lista-chicas-aguila").closest(".field-items").addClass("container-slider").append("<div class='deg left'></div><div class='deg right'></div>");
 
         var slider = $('.parent-slick');
 
@@ -62,13 +62,3 @@
         //Add down arrow below the banner  
     });
 }(jQuery2));
-
-
-function pauseCurrentVideo() {
-    if(currentVideoPlaying) {
-        currentVideoPlaying.pause();
-        toggleContentOnVideo();
-    }
-}
-
-
