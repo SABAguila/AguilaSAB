@@ -44,6 +44,53 @@
 	max-width: 50%;
 }
 
+/* Styles for slider chicas-aguila#conocelas */
+
+.item-lista-chicas-aguila p{
+			display: none;			
+}
+#node-301{
+	width: 980px;
+	margin: 0 auto;
+}
+.item-lista-chicas-aguila{
+	display: inline-block;
+	border: none!important;
+	background: none!important;
+	text-align: center;
+}
+.item-lista-chicas-aguila button{
+	border: 0;
+	padding: 8px 16px;
+	margin: 10px 0;
+	background: #0FC3FF;
+	border-radius: 3px;
+	color: white;
+}
+.item-lista-chicas-aguila .media-image{
+	margin: 0 auto;
+	width: 70%;
+}
+.container-slider .deg{
+	position: absolute;
+	top: 0;
+	width: 980px;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+	height: 266px;
+}
+.container-slider .deg.left{
+	background: url(/sites/g/files/ogq1251/f/201504/transp.png) no-repeat;
+	background-position: left;
+}
+.container-slider .deg.right{
+	background: url(/sites/g/files/ogq1251/f/201504/transp2.png) no-repeat;
+	background-position: right;
+}
+
+/* End Styles slider chicas-aguila#conocelas*/
+
 /* @group Media Query */
 
 /* Custom, iPhone Retina */
