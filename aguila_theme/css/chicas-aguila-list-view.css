@@ -39,13 +39,6 @@
 	color: #747474;
 }
 
-.item-lista-chicas-aguila p>a {
-	color: white;
-}
-.item-lista-chicas-aguila p>a:hover{
-	text-decoration: none;
-	font-weight: bold;
-}
 
 .item-lista-chicas-aguila .media-image {
 	border-radius: 50%;
@@ -74,6 +67,14 @@
 	color: white;
 	text-decoration: none;
 	display: inline-block;
+}
+.item-lista-chicas-aguila p.info-conocela>a{
+	color: white;
+	text-decoration: none;
+}
+.item-lista-chicas-aguila p.info-conocela>a:hover{
+	color: white;
+	text-decoration: none;
 }
 .item-lista-chicas-aguila .media-image{
 	margin: 0 auto;
