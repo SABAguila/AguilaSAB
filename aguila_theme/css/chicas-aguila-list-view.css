@@ -87,6 +87,25 @@
 	background: url(/sites/g/files/ogq1251/f/201504/transp2.png) no-repeat;
 	background-position: right;
 }
+.slick-dots li.slick-active button:before{
+	color: rgb(15, 195, 255);
+}
+.slick-dots li button:before {
+  font-family: 'slick';
+  font-size: 9px;
+  line-height: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  content: '•';
+  text-align: center;
+  opacity: .25;
+  color: black;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
 
 /* End Styles slider chicas-aguila#conocelas*/
 
