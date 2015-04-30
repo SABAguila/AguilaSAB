@@ -65,6 +65,7 @@
 	border-radius: 3px;
 	color: white;
 	text-decoration: none;
+	display: block;
 }
 .item-lista-chicas-aguila .media-image{
 	margin: 0 auto;
@@ -178,7 +179,7 @@
 
 	.item-lista-chicas-aguila {
     	/*margin: 0 26px;*/
-    	width:  247px;
+    	/*width:  247px;*/
 	}
 
 }
