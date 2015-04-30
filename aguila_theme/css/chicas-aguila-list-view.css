@@ -65,7 +65,7 @@
 	border-radius: 3px;
 	color: white;
 	text-decoration: none;
-	display: block;
+	display: inline-block;
 }
 .item-lista-chicas-aguila .media-image{
 	margin: 0 auto;
@@ -91,7 +91,7 @@
 .slick-dots li.slick-active button:before{
 	color: rgb(15, 195, 255);
 }
-.slick-dots li button:before {
+.slick-dots li  {
   font-family: 'slick';
   font-size: 9px;
   line-height: 20px;
@@ -135,7 +135,7 @@
 	.item-lista-chicas-aguila {
     	/*margin: 0 26px 20px;
     	width:  248px;*/
-    	min-height: 450px;
+    	min-height: 348px;
 	}
 
 	.item-lista-chicas-aguila h4 {
