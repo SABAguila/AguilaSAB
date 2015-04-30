@@ -98,13 +98,16 @@
 	background-position: right;
 }
 .slick-dots li{
-	text-indent: inherit;
 	background: none;
+}
+.slick-dots li button{
+	text-indent: inherit;
+	font-size: 7px;
 }
 .slick-dots li.slick-active button:before{
 	color:rgb(15, 195, 255);
 	opacity: 1;
-	font-size: 8px;
+	font-size: 9px;
 }
 
 /* End Styles slider chicas-aguila#conocelas*/
