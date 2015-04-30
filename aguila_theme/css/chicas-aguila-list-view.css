@@ -97,14 +97,14 @@
 	background: url(/sites/g/files/ogq1251/f/201504/transp2.png) no-repeat;
 	background-position: right;
 }
-.slick-dots li{
+#node-301 .slick-dots li{
 	background: none;
 }
-.slick-dots li button{
+#node-301 .slick-dots li button{
 	text-indent: inherit;
 	font-size: 7px;
 }
-.slick-dots li.slick-active button:before{
+#node-301 .slick-dots li.slick-active button:before{
 	color:rgb(15, 195, 255);
 	opacity: 1;
 	font-size: 9px;
