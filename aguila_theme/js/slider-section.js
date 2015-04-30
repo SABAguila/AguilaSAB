@@ -20,7 +20,7 @@
         slider.slick({
             dots: true,
             autoplay: true,
-            pauseOnHover: false,
+            pauseOnHover: true,
             autoplaySpeed: 7000,
             arrows: false,
             infinite: true,
