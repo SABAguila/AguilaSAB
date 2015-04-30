@@ -26,14 +26,14 @@
             variableWidth: true,
             responsive: [
                 {
-                  breakpoint: 900,
+                  breakpoint: 1024,
                   settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1
+                    slidesToShow: 3,
+                    slidesToScroll: 3
                   }
                 },
                 {
-                  breakpoint: 503,
+                  breakpoint: 900,
                   settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1
