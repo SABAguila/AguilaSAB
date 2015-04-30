@@ -97,6 +97,15 @@
 	background: url(/sites/g/files/ogq1251/f/201504/transp2.png) no-repeat;
 	background-position: right;
 }
+.slick-dots li{
+	text-indent: inherit;
+	background: none;
+}
+.slick-dots li.slick-active button:before{
+	color:rgb(15, 195, 255);
+	opacity: 1;
+	font-size: 8px;
+}
 
 /* End Styles slider chicas-aguila#conocelas*/
 
