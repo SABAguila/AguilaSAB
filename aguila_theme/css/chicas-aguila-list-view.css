@@ -57,7 +57,7 @@
 	display: inline-block;
 	text-align: center;
 }
-.item-lista-chicas-aguila p.info-conocela>a{
+.item-lista-chicas-aguila p.info-conocela{
 	border: 0;
 	padding: 8px 16px;
 	margin: 10px 0;
