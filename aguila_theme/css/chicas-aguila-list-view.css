@@ -55,17 +55,16 @@
 }
 .item-lista-chicas-aguila{
 	display: inline-block;
-	border: none!important;
-	background: none!important;
 	text-align: center;
 }
-.item-lista-chicas-aguila button{
+.item-lista-chicas-aguila a.conocela{
 	border: 0;
 	padding: 8px 16px;
 	margin: 10px 0;
 	background: #0FC3FF;
 	border-radius: 3px;
 	color: white;
+	text-decoration: none;
 }
 .item-lista-chicas-aguila .media-image{
 	margin: 0 auto;
@@ -128,7 +127,7 @@
 	}
 
 	.item-lista-chicas-aguila .media-image {
-		max-width: 100%;
+		max-width: 70%;
 	}
 
 	.item-lista-chicas-aguila .media-thumbnail-frame {

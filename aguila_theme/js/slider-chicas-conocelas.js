@@ -62,13 +62,3 @@
         //Add down arrow below the banner  
     });
 }(jQuery2));
-
-
-function pauseCurrentVideo() {
-    if(currentVideoPlaying) {
-        currentVideoPlaying.pause();
-        toggleContentOnVideo();
-    }
-}
-
-
