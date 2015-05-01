@@ -116,14 +116,22 @@
 
 /* Custom, iPhone Retina */
 @media only screen and (min-width : 320px) {
-
-
-
+	#node-301{
+		width: 320px;
+	}
+	.container-slider .deg{
+		width: 320px;
+	}
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (min-width : 480px) {
-
+	#node-301{
+		width: 450px;
+	}
+	.container-slider .deg{
+		width: 450px;
+	}
 }
 
 /* Small Devices, Tablets */
@@ -154,6 +162,12 @@
 
 	.item-lista-chicas-aguila .media-thumbnail-frame {
 		margin: 0 0 45px;
+	}
+	#node-301{
+		width: 750px;
+	}
+	.container-slider .deg{
+		width: 750px;
 	}
 
 }
