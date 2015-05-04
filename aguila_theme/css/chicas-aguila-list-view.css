@@ -90,11 +90,11 @@
 	height: 341px;
 }
 .container-slider .deg.left{
-	background: url(/sites/g/files/ogq1251/f/201504/transp.png) no-repeat;
+	background: url(/sites/g/files/ogq1251/f/201504/transp.png) repeat-y;
 	background-position: left;
 }
 .container-slider .deg.right{
-	background: url(/sites/g/files/ogq1251/f/201504/transp2.png) no-repeat;
+	background: url(/sites/g/files/ogq1251/f/201504/transp2.png) repeat-y;
 	background-position: right;
 }
 #node-301 .slick-dots li{
@@ -122,6 +122,10 @@
 	.container-slider .deg{
 		width: 320px;
 	}
+	#node-301 .slick-dots {
+		position: relative;
+		top: 10px;
+	}
 }
 
 /* Extra Small Devices, Phones */
@@ -132,6 +136,14 @@
 	.container-slider .deg{
 		width: 600px;
 	}
+	.container-slider .deg{
+		z-index: -1;
+	}
+	.container-slider .deg.right,
+	.container-slider .deg.left{
+		background-size: 55px;
+	}
+	  
 }
 
 /* Small Devices, Tablets */
