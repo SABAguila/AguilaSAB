@@ -87,7 +87,7 @@
 	margin: 0 auto;
 	left: 0;
 	right: 0;
-	height: 266px;
+	height: 341px;
 }
 .container-slider .deg.left{
 	background: url(/sites/g/files/ogq1251/f/201504/transp.png) no-repeat;
@@ -127,10 +127,10 @@
 /* Extra Small Devices, Phones */
 @media only screen and (min-width : 480px) {
 	#node-301{
-		width: 450px;
+		width: 600px;
 	}
 	.container-slider .deg{
-		width: 450px;
+		width: 600px;
 	}
 }
 
