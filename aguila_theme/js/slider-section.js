@@ -24,7 +24,7 @@
     XT.createPlayer =  function(playerInfo) {
         return new YT.Player(playerInfo, {            
             videoId: playerInfo,
-            playerVars: { 'controls': 0, 'enablejsapi': 1,'rel':0,'showinfo':0, 'iv_load_policy':3, 'modestbranding':1 },                
+            playerVars: { 'controls': 0, 'enablejsapi': 1,'rel':0,'showinfo':0, 'iv_load_policy':3, 'allowScriptAccess': "always", 'wmode' : 'transparent', 'modestbranding':1 },                
             events: {
                 onStateChange: XT.yt.onPlayerStateChange,
                 onError: XT.yt.onPlayerError
