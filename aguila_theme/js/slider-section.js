@@ -12,11 +12,12 @@
     XT.videoList = new Array();
     
     XT.countPlayers = function(){
-       for (i = 0; i < XT.videoYT.length; i++) { 
-           XT.videoList[i] = XT.videoYT[i].getAttribute('id');
+       for (i = 0; i < XT.videoYT.length; i++) {
+            if(XT.videoYT[i].getAttribute('id') != ''){
+                XT.videoList[i] = XT.videoYT[i].getAttribute('id');
+            }
        };
-    }    
-    XT.countPlayers();    
+    }  
     
     XT.players = new Array(); 
     
@@ -51,11 +52,10 @@
         /*default youtube api listener*/
         onYouTubeIframeAPIReady: function () {
             //console.log('API Ready?');
+            XT.countPlayers(); 
             window.YT = window.YT || {};
             if (typeof window.YT.Player === 'function') {
-
                 for (i = 0; i < XT.videoList.length; i++) {
-
                     var curplayer = XT.createPlayer(XT.videoList[i]);
                     XT.players[i] = curplayer;
                     
@@ -63,23 +63,20 @@
             }
         },
         
-        onPlayerStateChange: function (e) {
-            
+        onPlayerStateChange: function (e) {            
 
             XT.statusPlayer = (e.data === YT.PlayerState.PLAYING) ? 'play' : '';
             
             var slider = $('.view-banner-principal .view-content');
             
-            //console.log('status', e.data);
+            //console.log('status', e.data);            
 
-            if(e.data === 1){                
+            if(e.data === 1){
                 slider.slickPause();
-                XT.statusPlayer = 'play'
-                //console.log('pause slider');
-            }else{
+                XT.statusPlayer = 'play';                
+            }else{           
                 slider.slickPlay();
-                XT.statusPlayer = ''
-                //console.log('play slider');
+                XT.statusPlayer = ''; 
             }
 
             //console.log('statusPlayer', XT.statusPlayer);
@@ -120,7 +117,7 @@
         slider.slick({
             dots: true,
             autoplay: true,
-            pauseOnHover: true,
+            pauseOnHover: false,
             autoplaySpeed: 7000,
             arrows: false,
             infinite: true,
@@ -136,8 +133,7 @@
                 }
             },
             onBeforeChange: function(slider,index){
-                //window.console && console.log(index);                
-                slider.$slider.slickPause();
+                //window.console && console.log(index);
                 hide_alternative_content();               
                  
             },
@@ -152,6 +148,17 @@
                 $(XT.players).each(function (i) {                        
                     this.pauseVideo();                        
                 });
+            }
+        });
+
+        $(document).on('mouseenter', '.view-banner-principal .view-content .views-row', function() {                 
+            slider.slickPause();
+        });
+        $(document).on('mouseleave', '.view-banner-principal .view-content .views-row', function() {
+            if(XT.statusPlayer == 'play' ){                 
+                slider.slickPause();
+            }else{                
+                slider.slickPlay();
             }
         });
         
@@ -208,13 +215,13 @@ function play_alternative_content(id) {
             $(".slick-active .slide-content").addClass("hidden");
             currentVideoPlaying = video = $(".slick-active .slide-content-alternative video")[0];
             if(($(video).data("initialized")!="true")) {
-                window.console && console.log("initialize video");
+                //window.console && console.log("initialize video");
                 $(video).data("initialized","true");
                 video.addEventListener('loadedmetadata', function() {
                   this.currentTime = 0.1;
                 }, false);
                 video.addEventListener('ended', function(e) {
-                    window.console && console.log("ended");
+                    //window.console && console.log("ended");
                     video.pause();
                     hide_alternative_content();
                 }, false);
@@ -238,7 +245,7 @@ function play_alternative_content(id) {
 
 function hide_alternative_content() {
     $=jQuery;
-    window.console && console.log("hide");
+    //window.console && console.log("hide");
     $(".slide-content-alternative").addClass("hidden").each(function(i,el){
         if(jQuery(el).find("video").length>0) jQuery(el).find("video")[0].pause();
     });
