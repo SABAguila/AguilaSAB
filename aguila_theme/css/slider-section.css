@@ -177,7 +177,9 @@ body.page-node-606 .slick-initialized .slide-content{
     max-width: 155px;
 }
 .slide-content .videoYT{
+    height: auto;
     position: relative;
+    width: 100%;
     z-index: 1;
 }
 
@@ -320,6 +322,12 @@ body.page-node-606 .slick-initialized .slide-content{
 
     .slide-content .video-link {
         font-size: 170%;
+    }
+    .slide-content .videoYT{
+        height: auto;
+        position: relative;
+        width: auto;
+        z-index: 1;
     }
 
 }
