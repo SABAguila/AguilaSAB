@@ -176,6 +176,10 @@ body.page-node-606 .slick-initialized .slide-content{
     margin: 20px auto;
     max-width: 155px;
 }
+.slide-content .videoYT{
+    position: relative;
+    z-index: 1;
+}
 
 .banner-principal .view-content .btn {
     height: 38px;
