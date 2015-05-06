@@ -142,6 +142,7 @@
             },
         });
 
+        //dots slider controller video
         $(document).on('click touch', '.slick-dots li button', function() {                 
             if(XT.statusPlayer == 'play' ){
                 XT.statusPlayer = '';
@@ -151,6 +152,7 @@
             }
         });
 
+        //Slider hover function
         $(document).on('mouseenter', '.view-banner-principal .view-content .views-row', function() {                 
             slider.slickPause();
         });
