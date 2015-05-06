@@ -1,6 +1,106 @@
 /*global jQuery2 */
 (function ($) {
+
+    /*Youtube api videos - build players*/
+
+    var XT = XT || {};
+    
+    XT.statusPlayer = '';    
+    
+    XT.videoYT = $('.front .banner-principal .views-row .videoYT');
+    
+    XT.videoList = new Array();
+    
+    XT.countPlayers = function(){
+       for (i = 0; i < XT.videoYT.length; i++) { 
+           XT.videoList[i] = XT.videoYT[i].getAttribute('id');
+       };
+    }    
+    XT.countPlayers();    
+    
+    XT.players = new Array(); 
+    
+    XT.createPlayer =  function(playerInfo) {
+        return new YT.Player(playerInfo, {            
+            videoId: playerInfo,
+            playerVars: { 'controls': 0, 'enablejsapi': 1,'rel':0,'showinfo':0, 'iv_load_policy':3, 'modestbranding':1 },                
+            events: {
+                onStateChange: XT.yt.onPlayerStateChange,
+                onError: XT.yt.onPlayerError
+            }
+        });
+    }    
+
+    window.onYouTubeIframeAPIReady = function(){
+        setTimeout(XT.yt.onYouTubeIframeAPIReady,500);
+    }   
+
+    XT.yt = {       
+
+        /* load the YouTube API first */
+        loadApi: function () {
+
+                var j = document.createElement("script"),
+                    f = document.getElementsByTagName("script")[0];
+                j.src = "//www.youtube.com/iframe_api";
+                j.async = true;
+                f.parentNode.insertBefore(j, f);
+                //console.log('API Loaded');
+        },
+
+        /*default youtube api listener*/
+        onYouTubeIframeAPIReady: function () {
+            //console.log('API Ready?');
+            window.YT = window.YT || {};
+            if (typeof window.YT.Player === 'function') {
+
+                for (i = 0; i < XT.videoList.length; i++) {
+
+                    var curplayer = XT.createPlayer(XT.videoList[i]);
+                    XT.players[i] = curplayer;
+                    
+                };               
+            }
+        },
+        
+        onPlayerStateChange: function (e) {
+            
+
+            XT.statusPlayer = (e.data === YT.PlayerState.PLAYING) ? 'play' : '';
+            
+            var slider = $('.view-banner-principal .view-content');
+            
+            //console.log('status', e.data);
+
+            if(e.data === 1){                
+                slider.slickPause();
+                XT.statusPlayer = 'play'
+                //console.log('pause slider');
+            }else{
+                slider.slickPlay();
+                XT.statusPlayer = ''
+                //console.log('play slider');
+            }
+
+            //console.log('statusPlayer', XT.statusPlayer);
+        },
+
+        onPlayerError: function (e) {
+            console.log( "youtube: " + e.target.src + " - " + e.data);
+        },
+
+        init: function () {
+            this.loadApi();
+        }
+    }    
+
+
     $(document).ready(function(){
+
+        XT.yt.init();
+
+        //console.log(XT.players);
+
         var slider = $('.view-banner-principal .view-content'),
             sliderNode = $('.view-banner-principal'),
             borderClass,
@@ -36,13 +136,26 @@
                 }
             },
             onBeforeChange: function(slider,index){
-                window.console && console.log(index);
-                hide_alternative_content();
+                //window.console && console.log(index);                
+                slider.$slider.slickPause();
+                hide_alternative_content();               
+                 
             },
             onAfterChange: function(slider,index){
-                window.console && console.log(index);
+                //window.console && console.log(index);
             },
         });
+
+        $(document).on('click touch', '.slick-dots li button', function() {                 
+            if(XT.statusPlayer == 'play' ){
+                XT.statusPlayer = '';
+                $(XT.players).each(function (i) {                        
+                    this.pauseVideo();                        
+                });
+            }
+        });
+        
+
         //Add down arrow below the banner
         if(sliderNode.length) {
             scrollBtn = $('<div class="btn to-scroll btn-md btn-sky-blue btn-radius-none btn-text-no btn-symbol btn-symbol-down animation-to-bottom hidden"></div>');
