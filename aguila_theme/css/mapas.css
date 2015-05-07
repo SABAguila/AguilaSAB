@@ -130,7 +130,7 @@ div.information>div:last-of-type {
         border-radius: 2px;
     }
     .map-info-window img{
-        width: 35%;
+        width: 100%;
         margin-top: 9px;
     }
     .map-info-window h1{
