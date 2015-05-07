@@ -381,7 +381,7 @@ body.page-node-606 .slick-initialized .slide-content{
     }
 
     .slide-content .videoYT{
-        height: auto;
+        height: 360px;
         position: relative;
         width: 640px;
         z-index: 1;
