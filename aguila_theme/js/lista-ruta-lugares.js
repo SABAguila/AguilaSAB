@@ -5,6 +5,10 @@
     var markers = [];
     var centerLatlng;
 
+    if( $('#block-views-lugar-fiesta-en-mapa-lte-block .lista-lugares-fiesta a.view-map').length == 0 ){
+        $('#block-views-mapa-lugar-de-fiesta-block').hide();
+    }
+
     function transformar() {
         // no se puede utilizar la referencia a la lista porque el nodo en el DOM cambia
         $('.lista-lugares-fiesta').find('.view-content > .item-list > ul > li.views-row:not(.transformado)').transform({
@@ -98,6 +102,7 @@
                 var horarioFecha = node.data('horario');
                 var lugarFiesta = node.data('lugar');
                 var cuidadFiesta = node.data('ciudad');
+                var imagen = '';
                 
                 /**Only shows the fields with data**/
                 var infoContent = '';
@@ -114,6 +119,11 @@
                 if( node.data('lugar')!=""){
                     infoContent+='<div class="lugar"><strong>Lugar:</strong> '+lugarFiesta+'</div>';
                 } 
+                if(node.data('image')!=undefined){                    
+                    if(node.data('image')!=""){                        
+                        imagen = '<img src="'+ node.data('image') +'">' ;
+                    }
+                }
 
                 var marker = new google.maps.Marker({
                     position: position,
@@ -122,7 +132,7 @@
                 });
 
                 infowindow = new google.maps.InfoWindow({
-                    content: '<div class="lugar-info-window map-info-window"><img src="/sites/g/files/ogq1136/f/201504/CarnavalTooltipImg.png"><h1>' + node.data('placename') + '</h1><ul id="social"><li class="facebook"></li><li class="twitter"></li></ul><div class="information">'+infoContent+'</div></div>',
+                    content: '<div class="lugar-info-window map-info-window">'+ imagen +'<h1>' + node.data('placename') + '</h1><ul id="social"><li class="facebook"></li><li class="twitter"></li></ul><div class="information">'+infoContent+'</div></div>',
                     maxWidth : 215
                 });
 
