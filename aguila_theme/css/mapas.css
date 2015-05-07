@@ -71,7 +71,9 @@ div.information>div:last-of-type {
     margin-top: 10px;
 }   
 .map-info-window img{
-    margin-top: 13px; 
+    height: auto; 
+    margin-top: 13px;
+    width: 100%;
 }
 .map-info-window .event-date {
     color: #28c8fe;
