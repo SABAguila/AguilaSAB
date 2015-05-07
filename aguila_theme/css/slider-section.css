@@ -380,6 +380,13 @@ body.page-node-606 .slick-initialized .slide-content{
         font-size: 100%;
     }
 
+    .slide-content .videoYT{
+        height: auto;
+        position: relative;
+        width: 640px;
+        z-index: 1;
+    }
+
     .favoritos-content-type {
         margin: 20px auto 10px;
     }
