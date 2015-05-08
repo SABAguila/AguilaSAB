@@ -408,7 +408,10 @@ body.page-node-606 .slick-initialized .slide-content{
     }
 
     .chicas-aguila .slick-initialized .slide-content,
-    .chicas-aguila .banner-principal .views-row {
+    .chicas-aguila .banner-principal .views-row,
+    .copa-america .slick-initialized .slide-content,
+    .copa-america .banner-principal .views-row,
+     {
         height: 565px;
         z-index:1;
     }
