@@ -176,7 +176,7 @@ body.page-node-606 .slick-initialized .slide-content{
     margin: 20px auto;
     max-width: 155px;
 }
-.slide-content .videoYT{
+.slide-content iframe.videoYT{
     height: auto;
     position: relative;
     width: 100%;
@@ -323,7 +323,7 @@ body.page-node-606 .slick-initialized .slide-content{
     .slide-content .video-link {
         font-size: 170%;
     }
-    .slide-content .videoYT{
+    .slide-content iframe.videoYT{
         height: auto;
         position: relative;
         width: auto;
@@ -380,7 +380,7 @@ body.page-node-606 .slick-initialized .slide-content{
         font-size: 100%;
     }
 
-    .slide-content .videoYT{
+    .slide-content iframe.videoYT{
         height: 360px;
         position: relative;
         width: 640px;
