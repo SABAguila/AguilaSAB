@@ -134,7 +134,7 @@
 .view-filtros-la-ruta-de-la-alegria-fiesta-2 .view-header,
 .view-filtros-la-ruta-de-la-alegria-2 .view-header{
     float: left;
-    margin-top: 19px;
+    margin-top: 11px;
     position: relative;
     z-index: 2;
 }
@@ -309,6 +309,13 @@
     }
     .view-filtros-la-ruta-de-la-alegria-fiesta-2>.view-content{
         width: 1021px;
+    }
+    .view-filtros-la-ruta-de-la-alegria-fiesta-2 .view-header,
+    .view-filtros-la-ruta-de-la-alegria-2 .view-header{
+        float: left;
+        margin-top: 19px;
+        position: relative;
+        z-index: 2;
     }
 }
 
