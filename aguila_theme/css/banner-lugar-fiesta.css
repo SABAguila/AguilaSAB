@@ -49,6 +49,7 @@
 
 .sin-resultados {
     text-align: center;
+    display: none;
 }
 
 .banner-lugar-fiesta .tipo span {
