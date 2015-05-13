@@ -169,8 +169,7 @@
 .view-filtros-la-ruta-de-la-alegria-fiesta-2{
     font-size: 90%!important;
     width: 100%;
-    margin: 20px auto 0!important;
-    overflow: hidden;
+    margin: 20px auto 0!important;    
     background: white;
 }
 .view-filtros-la-ruta-de-la-alegria-fiesta-2>.view-content{
@@ -306,7 +305,7 @@
     }
 
     .view-filtros-la-ruta-de-la-alegria-fiesta-2{
-        width: 779px;
+        width: 100%;
     }
     .view-filtros-la-ruta-de-la-alegria-fiesta-2>.view-content{
         display: inline-block;
