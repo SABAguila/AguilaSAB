@@ -130,12 +130,13 @@
 .view-filtros-la-ruta-de-la-alegria-2{
     /*height: 75px;*/
     background-color:transparent;
-    text-align: center; 
+    text-align: center;
 }
 .view-filtros-la-ruta-de-la-alegria-fiesta-2 .view-header,
 .view-filtros-la-ruta-de-la-alegria-2 .view-header{
-    float: left;
-    margin-top: 11px;
+    display: inline-block;
+    float: none;
+    margin-top: 0;
     position: relative;
     z-index: 2;
 }
@@ -173,6 +174,8 @@
     background: white;
 }
 .view-filtros-la-ruta-de-la-alegria-fiesta-2>.view-content{
+    display: inline-block;
+    vertical-align: middle;
     width: auto;
 }
 .view-filtros-la-ruta-de-la-alegria-fiesta-2 .view-header a.filter{
@@ -305,20 +308,14 @@
     }
 
     .view-filtros-la-ruta-de-la-alegria-fiesta-2{
-        width: 100%;
+        
     }
     .view-filtros-la-ruta-de-la-alegria-fiesta-2>.view-content{
-        display: inline-block;
-        vertical-align: middle;
-        width: auto;
+        
     }
     .view-filtros-la-ruta-de-la-alegria-fiesta-2 .view-header,
     .view-filtros-la-ruta-de-la-alegria-2 .view-header{
-        display: inline-block;
-        float: none;
-        margin-top: 19px;
-        position: relative;
-        z-index: 2;
+        
     }
 }
 
