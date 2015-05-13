@@ -310,6 +310,7 @@
     }
     .view-filtros-la-ruta-de-la-alegria-fiesta-2>.view-content{
         display: inline-block;
+        vertical-align: middle;
         width: auto;
     }
     .view-filtros-la-ruta-de-la-alegria-fiesta-2 .view-header,
