@@ -335,7 +335,7 @@
     .view-dynamic-filter .view-content ul {
         padding: 14px 0 10px 0px;
         float: left;
-        width: 80%;
+        width: 100%;
     }
 
     .view-dynamic-filter .view-content div > p + ul {
