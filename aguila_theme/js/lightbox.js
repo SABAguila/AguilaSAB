@@ -9,19 +9,50 @@
         lightboxElements = [];
 
     $(document).ready(function($) {
+
+        var NumImgHash = parseInt(location.hash.substring(8));
+
+        setTimeout(function(){
+            console.log("next, prev counter watching parseInt");
+            if(NumImgHash != ""){
+                $(".media-gallery-thumb>img").eq(NumImgHash - 1).trigger("click");
+            }
+        },600)
+        
+
         lightboxElements = $(colorboxNode);
 
         if($(lightboxElements).length) {
             // Repeatedly remove colorbox until it achieves
             colorboxKiller = setInterval(function(){
-                removeColorbox();
+                removeColorbox(); 
             }, 100);
 
+            //Set the specific image selected so that the popUp library con be manipulated for sharing
+            $('body').on('click touch', '.media-gallery-media-item-thumbnail', function(e) {
+                var indexImg = parseInt($(this).parent().index()) + 1;
+                console.log("Numner Image: "+indexImg);
+                location.hash="galeria"+indexImg;
+
+                $.magnificPopup.instance.next = function() {
+                    location.hash="galeria"+indexImg + 1;
+                    $.magnificPopup.proto.next.call(this);
+                };
+                $.magnificPopup.instance.prev = function() {
+                     location.hash="galeria"+indexImg - 1;
+                    $.magnificPopup.proto.prev.call(this);
+                };
+
+
+            });
+
             $('body').on('click touch', '.media-gallery-social-share a', function(e) {
-                var mediaUrl = $(this).parents('figure').eq(0).find('.mfp-img').attr('src');
+                //var mediaUrl = $(this).parents('figure').eq(0).find('.mfp-img').attr('src') ;
+                var mediaUrl = location.href;
                 socialShare($(this).attr('class'), mediaUrl);
                 e.preventDefault();
             });
+
 
             // Add the total amount of elements in galleries
             $('.galeryCounter').html($(lightboxElements).length + ' FOTOS');
@@ -38,7 +69,7 @@
         $(lightboxElements).magnificPopup({
             type: 'image',
             tClose: 'Cerrar (Esc)',
-            tLoading: 'Cargando...',
+            tLoading: 'Cargando...',  
                 callbacks: {
                     open: function() {
                         $('.mfp-prevent-close').insertBefore('.mfp-close');
@@ -49,8 +80,8 @@
                     return '<a class="download" href="media/'+item.el.attr('href').split('/').pop()+'/download" target="_blank">Descargar</a>' +
                             '<span>Compartir</span>'+
                             '<ul class="media-gallery-social-share">' +
-                                '<li><a class="fb" href="#">Facebook</a></li>' +
-                                '<li><a class="twitter" href="#">Twitter</a></li>' +
+                                '<li><a class="fb" href="#">Facebooks</a></li>' +
+                                '<li><a class="twitter" href="#">Twitters</a></li>' +
                             '</ul>';
                 },
                 tError: 'No se pudo cargar <a href="%url%">la imagen</a>.'
