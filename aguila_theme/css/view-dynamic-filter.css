@@ -276,6 +276,7 @@
     .view-dynamic-filter.view-filtros-la-ruta-de-la-alegria-2 {
         font-size: 114%;
         margin:0px !important;
+        float: left;
     }
 
     .view-dynamic-filter .views-row > div > p {
