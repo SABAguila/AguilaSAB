@@ -278,6 +278,12 @@
         margin:0px !important;
         float: left;
     }
+    .view-dynamic-filter.view-filtros-la-ruta-de-la-alegria-2  > .view-content{
+        float: left;
+    }
+    .view-dynamic-filter.view-filtros-la-ruta-de-la-alegria-2  > .view-header{
+        float: right;
+    }
 
     .view-dynamic-filter .views-row > div > p {
         padding: 15px 33px 0 18px;
