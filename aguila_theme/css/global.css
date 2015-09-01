@@ -503,7 +503,13 @@ $black, $dark           = #000    | rgb(0, 0, 0);
 .btn-symbol.btn-symbol-bar,
 .btn-symbol.btn-symbol-bar.active,
 .btn-symbol.btn-symbol-restaurante,
-.btn-symbol.btn-symbol-restaurante.active {
+.btn-symbol.btn-symbol-restaurante.active,
+.btn-symbol.btn-symbol-programacion,
+.btn-symbol.btn-symbol-programacion.active,
+.btn-symbol.btn-symbol-concurso,
+.btn-symbol.btn-symbol-concurso.active,
+.btn-symbol.btn-symbol-traje,
+.btn-symbol.btn-symbol-traje.active {
     overflow: hidden;
     background: none;
     position: relative;
@@ -522,7 +528,10 @@ $black, $dark           = #000    | rgb(0, 0, 0);
 .btn-symbol.btn-symbol-evento:before,
 .btn-symbol.btn-symbol-2x1:before,
 .btn-symbol.btn-symbol-bar:before,
-.btn-symbol.btn-symbol-restaurante:before {
+.btn-symbol.btn-symbol-restaurante:before,
+.btn-symbol.btn-symbol-programacion,
+.btn-symbol.btn-symbol-concurso,
+.btn-symbol.btn-symbol-traje {
     content: '';
     position: absolute;
     top: 50%;
